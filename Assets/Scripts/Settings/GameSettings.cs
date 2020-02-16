@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 
 public class GameSettings : MonoBehaviour {
 
 
-    #region singleton
+    #region I am a SINGLETON!
 
     private static GameSettings _instance;
 
@@ -26,24 +26,85 @@ public class GameSettings : MonoBehaviour {
     #endregion
 
 
+    static readonly string SETTINGS_FILE = "settings.json";
+
     public bool IsReady { get; private set; }
 
-    public IList<string> qualitySettings { get; private set; }
-    public IList<Resolution> ResolutionSettings { get; private set; }
+    public List<string> qualitySettings { get; private set; }
+    public List<Resolution> resolutionSettings { get; private set; }
 
     public UserOptions userOptions { get; private set; }
 
+
+
+
     void Awake() {
         qualitySettings = new List<string>(QualitySettings.names);
-        ResolutionSettings = new List<Resolution>(Screen.resolutions);
 
-        UserOptions = LoadOptions();
+        resolutionSettings = new List<Resolution>(Screen.resolutions);
+
+        userOptions = LoadOptions();
 
         IsReady = true;
     }
 
-    UserOptions LoadOptions() {
+
+    #region Public Methods
+
+    public void SaveSettings(int q, int w, int h, bool fs) {
+        var settings = new UserOptions {
+            quality = q,
+            fullScreen = fs,
+            width = w,
+            height = h
+        };
+
+        string fullPath = Path.Combine(Application.persistentDataPath, SETTINGS_FILE);
+
+        if (File.Exists(fullPath)) {
+            File.Delete(fullPath);
+        }
+
+        File.WriteAllText(fullPath, JsonUtility.ToJson(settings));
+        ApplySettings(settings);
+
+        userOptions = settings;
 
     }
+
+    #endregion
+
+
+
+    #region Private Methods
+
+    UserOptions LoadOptions() {
+        string fullPath = Path.Combine(Application.persistentDataPath, SETTINGS_FILE);
+
+        if (File.Exists(fullPath)) {
+            string json = File.ReadAllText(fullPath);
+            var settings = JsonUtility.FromJson<UserOptions>(json);
+            ApplySettings(settings);
+            return settings;
+        } else {
+            return new UserOptions() {
+                quality = QualitySettings.GetQualityLevel(),
+                fullScreen = Screen.fullScreen,
+                width = Screen.width,
+                height = Screen.height
+            };
+        }
+    }
+
+
+
+    void ApplySettings(UserOptions settings) {
+        QualitySettings.SetQualityLevel(settings.quality);
+        Screen.SetResolution(settings.width, settings.height, settings.fullScreen);
+    }
+
+
+
+    #endregion
 
 }
