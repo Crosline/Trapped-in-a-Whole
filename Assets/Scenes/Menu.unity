@@ -1739,13 +1739,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 846027400}
   m_HandleRect: {fileID: 50721238}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 543465965}
+        m_TargetAssemblyTypeName: OptionsController, Assembly-CSharp
+        m_MethodName: MusicVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &519150052
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,6 +1925,9 @@ MonoBehaviour:
   quality: {fileID: 1568302033}
   resolution: {fileID: 1655847309}
   fullScreenToggle: {fileID: 736754427}
+  master: {fileID: 0}
+  music: {fileID: 498922466}
+  effects: {fileID: 0}
 --- !u!1 &670535305
 GameObject:
   m_ObjectHideFlags: 0
@@ -5032,13 +5047,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 802732344}
   m_HandleRect: {fileID: 1005169399}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 543465965}
+        m_TargetAssemblyTypeName: OptionsController, Assembly-CSharp
+        m_MethodName: MasterVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1400037665
 GameObject:
   m_ObjectHideFlags: 0
@@ -5994,7 +6021,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1630695661}
   m_Layer: 5
-  m_Name: MainVol
+  m_Name: MasterVol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6317,7 +6344,7 @@ GameObject:
   - component: {fileID: 1696963245}
   - component: {fileID: 1696963244}
   m_Layer: 5
-  m_Name: Main
+  m_Name: Master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7651,13 +7678,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 264378898}
   m_HandleRect: {fileID: 2084212120}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 543465965}
+        m_TargetAssemblyTypeName: OptionsController, Assembly-CSharp
+        m_MethodName: EffectsVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2128102356
 GameObject:
   m_ObjectHideFlags: 0

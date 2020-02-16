@@ -9,7 +9,15 @@ public class OptionsController : MonoBehaviour {
     public TMPro.TMP_Dropdown quality;
     public TMPro.TMP_Dropdown resolution;
     public Toggle fullScreenToggle;
+    public Slider master;
+    public Slider music;
+    public Slider effects;
     private bool fullScreen;
+
+    private float masterVolume;
+    private float musicVolume;
+    private float effectsVolume;
+
     public void FullScreen() {
         fullScreen = !fullScreen;
     }
@@ -22,8 +30,22 @@ public class OptionsController : MonoBehaviour {
         int qual = quality.value;
         bool full = fullScreen;
 
-        GameSettings.Instance.SaveSettings(qual, res.width, res.height, full);
+        GameSettings.Instance.SaveSettings(qual, res.width, res.height, full, masterVolume, musicVolume, effectsVolume);
     }
+
+    #region volume
+
+    public void MasterVolume() {
+        masterVolume = master.value;
+    }
+    public void MusicVolume() {
+        musicVolume = music.value;
+    }
+    public void EffectsVolume() {
+        effectsVolume = effects.value;
+    }
+
+    #endregion
 
 
     IEnumerator Start() {
@@ -73,6 +95,12 @@ public class OptionsController : MonoBehaviour {
         resolution.value = currentResIndex;
         fullScreenToggle.isOn = user.fullScreen;
         fullScreen = user.fullScreen;
+
+
+        master.value = user.masterVolume;
+        music.value = user.musicVolume;
+        effects.value = user.effectsVolume;
+
     }
 
 }

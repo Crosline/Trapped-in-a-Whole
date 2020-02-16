@@ -51,12 +51,15 @@ public class GameSettings : MonoBehaviour {
 
     #region Public Methods
 
-    public void SaveSettings(int q, int w, int h, bool fs) {
+    public void SaveSettings(int q, int w, int h, bool fs, float ma, float mu, float fx) {
         var settings = new UserOptions {
             quality = q,
             fullScreen = fs,
             width = w,
-            height = h
+            height = h,
+            masterVolume = ma,
+            musicVolume = mu,
+            effectsVolume = fx
         };
 
         string fullPath = Path.Combine(Application.persistentDataPath, SETTINGS_FILE);
@@ -91,8 +94,11 @@ public class GameSettings : MonoBehaviour {
                 quality = QualitySettings.GetQualityLevel(),
                 fullScreen = Screen.fullScreen,
                 width = Screen.width,
-                height = Screen.height
-            };
+                height = Screen.height,
+                masterVolume = 0,
+                musicVolume = 0,
+                effectsVolume = 0
+};
         }
     }
 

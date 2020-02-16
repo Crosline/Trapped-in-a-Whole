@@ -10,4 +10,9 @@ public class UserOptions {
     public bool fullScreen;
 
 
+    public float masterVolume;
+    public float musicVolume;
+    public float effectsVolume;
+
+
 }
