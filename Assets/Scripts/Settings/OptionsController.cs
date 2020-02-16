@@ -1,17 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class OptionsController : MonoBehaviour {
 
-
+    [Header("Quality")]
     public TMPro.TMP_Dropdown quality;
     public TMPro.TMP_Dropdown resolution;
     public Toggle fullScreenToggle;
+    [Header("Sliders")]
     public Slider master;
     public Slider music;
     public Slider effects;
+    [Header("AudioMixers")]
+    public AudioMixer masterMixer;
+    public AudioMixer musicMixer;
+    public AudioMixer effectsMixer;
     private bool fullScreen;
 
     private float masterVolume;
@@ -29,6 +35,11 @@ public class OptionsController : MonoBehaviour {
         Resolution res = filteredRes[resolution.value];
         int qual = quality.value;
         bool full = fullScreen;
+
+        masterMixer.SetFloat("volume", masterVolume);
+        musicMixer.SetFloat("volume", musicVolume);
+        effectsMixer.SetFloat("volume", effectsVolume);
+
 
         GameSettings.Instance.SaveSettings(qual, res.width, res.height, full, masterVolume, musicVolume, effectsVolume);
     }
@@ -100,6 +111,10 @@ public class OptionsController : MonoBehaviour {
         master.value = user.masterVolume;
         music.value = user.musicVolume;
         effects.value = user.effectsVolume;
+
+        masterMixer.SetFloat("volume", user.masterVolume);
+        musicMixer.SetFloat("volume", user.musicVolume);
+        effectsMixer.SetFloat("volume", user.effectsVolume);
 
     }
 

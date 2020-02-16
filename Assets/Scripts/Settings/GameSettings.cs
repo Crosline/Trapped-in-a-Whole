@@ -103,7 +103,6 @@ public class GameSettings : MonoBehaviour {
     }
 
 
-
     void ApplySettings(UserOptions settings) {
         QualitySettings.SetQualityLevel(settings.quality);
         Screen.SetResolution(settings.width, settings.height, settings.fullScreen);

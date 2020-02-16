@@ -1925,9 +1925,9 @@ MonoBehaviour:
   quality: {fileID: 1568302033}
   resolution: {fileID: 1655847309}
   fullScreenToggle: {fileID: 736754427}
-  master: {fileID: 0}
+  master: {fileID: 1393327589}
   music: {fileID: 498922466}
-  effects: {fileID: 0}
+  effects: {fileID: 2093591442}
 --- !u!1 &670535305
 GameObject:
   m_ObjectHideFlags: 0
