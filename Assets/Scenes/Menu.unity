@@ -1928,6 +1928,9 @@ MonoBehaviour:
   master: {fileID: 1393327589}
   music: {fileID: 498922466}
   effects: {fileID: 2093591442}
+  masterMixer: {fileID: 24100000, guid: 4f59cb543dfd14b489fbfe482a382cfa, type: 2}
+  musicMixer: {fileID: 24100000, guid: c203de9a6d94cb344a8abd3b41171ebf, type: 2}
+  effectsMixer: {fileID: 24100000, guid: f72e04a702bc4614fa84d33677615249, type: 2}
 --- !u!1 &670535305
 GameObject:
   m_ObjectHideFlags: 0
