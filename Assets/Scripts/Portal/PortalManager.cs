@@ -20,12 +20,17 @@ public class PortalManager : MonoBehaviour {
             Destroy(portal3);
         }
 
+        if (portal1 == null)
+            return;
 
-        portal1.transform.position = p[0].position;
-        portal2.transform.position = p[1].position;
-
-        if (p[2] != null)
+        if (p[0] != null)
+            portal1.transform.position = p[0].position;
+        if (p[1] != null)
+            portal2.transform.position = p[1].position;
+        if (p[2] == null && portal3 != null)
             portal3.transform.position = new Vector2(-10000, -10000);
+        else if (portal3 != null)
+            portal3.transform.position = p[1].position;
 
     }
 }
