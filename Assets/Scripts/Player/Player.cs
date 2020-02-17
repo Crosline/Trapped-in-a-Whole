@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-
     private Rigidbody2D _rgbd2D;
     private BoxCollider2D _collider;
 
@@ -12,12 +11,14 @@ public class Player : MonoBehaviour
     [SerializeField] private float _airMovingSpeed;
     [SerializeField] private float _jetPackCapacity;
     [SerializeField] private float _thrustAmmount;
-
+    [SerializeField] private float _dashSpeed;
+    [SerializeField] private float _dashDuration;
     [SerializeField] private float _jetPackRestoringSpeed;
     [SerializeField] private float _dashTimeout;
 
     private bool _isGrounded = true;
     private bool _isJumped = false;
+    private bool _isDashing = false;
 
     private void Awake()
     {
@@ -39,7 +40,7 @@ public class Player : MonoBehaviour
     {
         _isGrounded = false;
         _isJumped = true;
-        _rgbd2D.AddForce(Vector3.up * Time.deltaTime / _rgbd2D.gravityScale * 10000); // / _rgbd2D.gravityScale 
+        _rgbd2D.AddForce(Vector3.up * Time.deltaTime / _rgbd2D.gravityScale * 10000); 
         Debug.Log("JUMP");
     }
 
@@ -73,8 +74,24 @@ public class Player : MonoBehaviour
         _rgbd2D.AddForce(Vector3.up * Time.deltaTime / _rgbd2D.gravityScale * 1000);
     }
 
-    private void Dash()
+    private void GroundCheck()
     {
 
+
+
+    }
+
+    private IEnumerator Dash(Vector2 direction)
+    {
+        _isDashing = true;
+        direction = direction.normalized;
+
+        for (float i = 0; i<_dashDuration; i++)
+        {
+
+            yield return new WaitForFixedUpdate();
+        }
+
+        _isDashing = false;
     }
 }
