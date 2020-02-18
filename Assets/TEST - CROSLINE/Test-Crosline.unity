@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 399961300}
   - component: {fileID: 399961299}
   - component: {fileID: 399961298}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1352,6 +1352,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633653185}
   m_CullTransparentMesh: 0
+--- !u!1 &693442303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 693442304}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &693442304
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693442303}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1519672187}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.023, y: -0.439}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1046817392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1507,12 +1542,12 @@ PrefabInstance:
     - target: {fileID: 913491189454274508, guid: 02540dfaf6b306c41b6c1fec42858169,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.4
       objectReference: {fileID: 0}
     - target: {fileID: 913491189454274508, guid: 02540dfaf6b306c41b6c1fec42858169,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: 913491189454274508, guid: 02540dfaf6b306c41b6c1fec42858169,
         type: 3}
@@ -1562,7 +1597,27 @@ PrefabInstance:
     - target: {fileID: 913491189454274509, guid: 02540dfaf6b306c41b6c1fec42858169,
         type: 3}
       propertyPath: orthographic size
-      value: 10
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 913491189454274509, guid: 02540dfaf6b306c41b6c1fec42858169,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.2784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 913491189454274509, guid: 02540dfaf6b306c41b6c1fec42858169,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.2784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 913491189454274509, guid: 02540dfaf6b306c41b6c1fec42858169,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.2784314
+      objectReference: {fileID: 0}
+    - target: {fileID: 913491189454274509, guid: 02540dfaf6b306c41b6c1fec42858169,
+        type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02540dfaf6b306c41b6c1fec42858169, type: 3}
@@ -1578,12 +1633,13 @@ GameObject:
   - component: {fileID: 1519672186}
   - component: {fileID: 1519672185}
   - component: {fileID: 1519672184}
+  - component: {fileID: 1519672188}
   - component: {fileID: 1519672183}
   - component: {fileID: 1519672182}
   - component: {fileID: 1519672181}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6381,7 +6437,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.028345555, y: -0.029726714}
+  m_Offset: {x: 0.024637222, y: -0.03449899}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6392,8 +6448,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9832216, y: 0.94754916}
-  m_EdgeRadius: 0
+  m_Size: {x: 0.15289879, y: 0.733065}
+  m_EdgeRadius: 0.1
 --- !u!50 &1519672184
 Rigidbody2D:
   serializedVersion: 4
@@ -6409,7 +6465,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 5
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -6422,7 +6478,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519672180}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aae4b23f6d046fd4f9d42e89da3773f9, type: 3}
   m_Name: 
@@ -6442,7 +6498,7 @@ MonoBehaviour:
   _isDashing: 0
   layer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 1
   _particleSystem: {fileID: 1519672182}
 --- !u!212 &1519672186
 SpriteRenderer:
@@ -6506,14 +6562,43 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 283616083}
+  - {fileID: 693442304}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.41, y: 0.89}
+  m_AnchoredPosition: {x: -6.56, y: 0.54}
   m_SizeDelta: {x: 0.16, y: 0.16}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1519672188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519672180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6e3358bae16f0f478d9b8c745fbee93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jetPackTime: 8
+  jetPackForce: 75
+  jetPackFuelRate: 5
+  jumpForce: 12
+  fallMultiplier: 3
+  lowKeyMultiplier: 2
+  health: 3
+  playerSpeed: 5
+  rb: {fileID: 1519672184}
+  groundCheck: {fileID: 693442304}
+  checkRadius: 0.16
+  whatIsTile:
+    serializedVersion: 2
+    m_Bits: 256
+  noFriction: {fileID: 6200000, guid: ab1c61bb26da15a47be9a3526cf6f09d, type: 2}
+  withFriction: {fileID: 6200000, guid: 9a8c305c04365aa4fb25a3ed8b0608de, type: 2}
 --- !u!1 &1659909302
 GameObject:
   m_ObjectHideFlags: 0
