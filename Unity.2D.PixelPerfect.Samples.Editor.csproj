@@ -65,11 +65,11 @@
   <ItemGroup>
     <Compile Include="Assets\Samples\2D Pixel Perfect\3.0.1\Sample Scenes and Extras\Scenes\Rule Tiles\Scripts\Editor\RuleTileEditor.cs" />
     <None Include="Assets\Samples\2D Pixel Perfect\3.0.1\Sample Scenes and Extras\Scenes\Rule Tiles\Scripts\Editor\Unity.2D.PixelPerfect.Samples.Editor.asmdef" />
-    <Reference Include="UnityEngine.UI">
-      <HintPath>D:/Belgeler/workspace/unity/Brackeys3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>D:/Belgeler/workspace/unity/Brackeys3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Belgeler/workspace/unity/Brackeys3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>D:/Belgeler/workspace/unity/Brackeys3/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
