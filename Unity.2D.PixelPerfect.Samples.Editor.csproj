@@ -71,6 +71,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Users/sn0wy/OneDrive/Рабочий стол/main/Brackeys3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Belgeler/workspace/unity/Brackeys3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:/Users/sn0wy/OneDrive/Рабочий стол/main/Brackeys3/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
