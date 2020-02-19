@@ -8,8 +8,8 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D _rgbd2D;
     private BoxCollider2D _collider;
-    
-    public GameLevel CurrentLevel;
+
+    public static GameLevel CurrentLevel;
 
     [SerializeField] private float _movingSpeed;
     [SerializeField] private float _airMovingSpeed;

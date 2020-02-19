@@ -19,9 +19,9 @@ public class CrystalShard : MonoBehaviour, IPickUp
         PickUpEffect();
     }
 
-    public void PickUpEffect() => Player.Instance.CurrentLevel.ShardsCollected++;
+    public void PickUpEffect() => Player.CurrentLevel.ShardsCollected++;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player" && !isPickedUp)
             PickUp();

@@ -11,7 +11,8 @@ public class GameLevel
         set
         {
             _shardsCollected = value;
-            
+            GameplayUI.Instance.ChangeShardsText(LevelShards, value);
+
             // if all shards collected, you your portal system
             if (_shardsCollected == LevelShards)
             {
@@ -34,6 +35,6 @@ public class GameLevel
         LoadLevel();
         var obj = GameObject.FindGameObjectsWithTag("Shard");
         LevelShards = obj.Length;
-        Player.Instance.CurrentLevel = this;
+        Player.CurrentLevel = this;
     }
 }

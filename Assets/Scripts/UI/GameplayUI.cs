@@ -8,11 +8,13 @@ public class GameplayUI : MonoBehaviour
     public static GameplayUI Instance;
 
     [SerializeField] private Slider _thrustSlider;
+    [SerializeField] private Text _shardsCount;
 
     private void Awake() => Instance = this;
 
-    public void ChangeThrustSliderValue(float value)
-    {
+    public void ChangeThrustSliderValue(float value) =>
         _thrustSlider.value = value / Player.Instance.JetpackCapacity;
-    }
+
+    public void ChangeShardsText(int needToCollect, int alredyCollected) => _shardsCount.text = $"{needToCollect}/{alredyCollected}";
+
 }
