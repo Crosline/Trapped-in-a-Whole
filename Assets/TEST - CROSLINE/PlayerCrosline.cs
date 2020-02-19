@@ -113,7 +113,7 @@ public class PlayerCrosline : MonoBehaviour {
             } else
                 rb.velocity = Vector2.up * jetPackForce * Time.fixedDeltaTime + Vector2.right * rb.velocity.x;
             jetpackTimeCounter -= Time.fixedDeltaTime * jetPackFuelRate;
-        } else if (jetpackTimeCounter < 0)
+        } else if (jetpackTimeCounter < 0 && isGrounded)
             anime.SetBool("Thrust", false);
     }
 
