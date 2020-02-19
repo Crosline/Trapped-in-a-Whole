@@ -94,12 +94,28 @@ public class PlayerCrosline : MonoBehaviour {
 
 
     private void Dash() {
-        if(isDashing && jetpackTimeCounter > jetPackTime * 2 / 5) {
-            rb.velocity += Vector2.right * rb.velocity.x * dashForce;
+        if(isDashing && jetpackTimeCounter > jetPackTime * 2 / 5 && (Input.GetButton("Horizontal") || Input.GetButton("Vertical"))) {
+            anime.SetTrigger("Dash");
+            rb.velocity *= dashForce; //+= Vector2.right * rb.velocity.x *
             jetpackTimeCounter -= jetPackTime * 2 / 5;
             jetpackTimeCounter = Mathf.Clamp(jetpackTimeCounter, 0, 100);
             isDashing = false;
+            anime.ResetTrigger("Dash");
         }
+    }
+
+
+    IEnumerator IDash() {
+        if (Input.GetButton("Jump") && !isGrounded && jetpackTimeCounter > 0) {
+            anime.SetBool("Thrust", true);
+            yield return new WaitForFixedUpdate();
+            if (rb.velocity.y < 0 || rb.velocity.y < jumpForce) {
+                rb.velocity = Vector2.up * jetPackForce * Time.fixedDeltaTime + Vector2.right * rb.velocity.x;
+            } else
+                rb.velocity = Vector2.up * jetPackForce * Time.fixedDeltaTime + Vector2.right * rb.velocity.x;
+            jetpackTimeCounter -= Time.fixedDeltaTime * jetPackFuelRate;
+        } else if (jetpackTimeCounter < 0)
+            anime.SetBool("Thrust", false);
     }
 
 
@@ -126,15 +142,17 @@ public class PlayerCrosline : MonoBehaviour {
             isJumping = true;
         }
 
-        if (Input.GetButton("Jump") && !isGrounded && jetpackTimeCounter > 0) {
+        StartCoroutine(IDash());
+
+        /*if (Input.GetButton("Jump") && !isGrounded && jetpackTimeCounter > 0) {
             anime.SetBool("Thrust", true);
-            if (rb.velocity.y < 0) {
+            if (rb.velocity.y < 0 || rb.velocity.y < jumpForce) {
                 rb.velocity = Vector2.up * jetPackForce * Time.fixedDeltaTime + Vector2.right * rb.velocity.x;
-            }
-            rb.velocity += Vector2.up * jetPackForce * Time.fixedDeltaTime + Vector2.right * rb.velocity.x;
+            }else 
+                rb.velocity = Vector2.up * jetPackForce * Time.fixedDeltaTime + Vector2.right * rb.velocity.x;
             jetpackTimeCounter -= Time.fixedDeltaTime * jetPackFuelRate;
         } else if (jetpackTimeCounter < 0)
-            anime.SetBool("Thrust", false);
+            anime.SetBool("Thrust", false);*/
 
         if (isGrounded) {
 
@@ -142,6 +160,7 @@ public class PlayerCrosline : MonoBehaviour {
                 Debug.Log("Hello");
                 isJumping = false;
                 anime.SetBool("Jump", false);
+                anime.SetBool("Thrust", false);
                 jetpackTimeCounter += Time.fixedDeltaTime * jetPackFuelRate;
             }
 
@@ -191,7 +210,6 @@ public class PlayerCrosline : MonoBehaviour {
     private void DashInput() {
         if (Input.GetButtonDown("Fire1")) {
             isDashing = true;
-            anime.SetTrigger("Dash");
         }
 
     }
