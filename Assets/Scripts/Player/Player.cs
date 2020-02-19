@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D _rgbd2D;
     private BoxCollider2D _collider;
+    private GameLevel _currentLevel;
 
     [SerializeField] private float _movingSpeed;
     [SerializeField] private float _airMovingSpeed;
@@ -49,8 +50,7 @@ public class Player : MonoBehaviour
         _collider = GetComponent<BoxCollider2D>();
     }
 
-
-    private void Update()
+    private void FixedUpdate()
     {
         Move();
         GroundCheck();
@@ -121,12 +121,5 @@ public class Player : MonoBehaviour
 
         yield return new WaitForSecondsRealtime(_dashTimeout);
         _isDashing = false;
-    }
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = new Color(0, 1, 0, 0.5f);
-        Gizmos.DrawCube(new Vector2(transform.position.x, transform.position.y - 0.505f),
-            new Vector2(1, 0.01f));
     }
 }

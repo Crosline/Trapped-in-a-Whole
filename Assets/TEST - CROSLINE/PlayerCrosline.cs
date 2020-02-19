@@ -51,7 +51,6 @@ public class PlayerCrosline : MonoBehaviour {
 
         InputManagment();
         Ground();
-
     }
 
     void FixedUpdate() {
