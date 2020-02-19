@@ -78,6 +78,7 @@ public class Portal : MonoBehaviour {
         if (collision.gameObject.tag == "Player") {
             //SceneManager.LoadScene(whereToGo);
             new GameLevel(whereToGo);
+            
         }
     }
 }

@@ -1,17 +1,28 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameLevel
 {
     public int SceneID;
-    public int LevelShards;
+    public int LevelShards
+    {
+        get => _levelShards;
+        set
+        {
+            _levelShards = value;
+            GameplayUI.Instance.ChangeCollectedShards(value, ShardsCollected);
+        }
+    }
+    private int _levelShards;
+
     public int ShardsCollected
     {
         get => _shardsCollected;
         set
         {
             _shardsCollected = value;
-            GameplayUI.Instance.ChangeShardsText(LevelShards, value);
+            GameplayUI.Instance.ChangeCollectedShards(LevelShards, value);
 
             // if all shards collected, you your portal system
             if (_shardsCollected == LevelShards)
@@ -20,7 +31,7 @@ public class GameLevel
             }
         }
     }
-    private int _shardsCollected;
+    private int _shardsCollected = 0;
 
     public void LoadLevel() => SceneManager.LoadScene(SceneID);
 
@@ -33,8 +44,12 @@ public class GameLevel
     {
         this.SceneID = SceneID;
         LoadLevel();
+        Player.CurrentLevel = this;
+    }
+
+    public void FindShards()
+    {
         var obj = GameObject.FindGameObjectsWithTag("Shard");
         LevelShards = obj.Length;
-        Player.CurrentLevel = this;
     }
 }

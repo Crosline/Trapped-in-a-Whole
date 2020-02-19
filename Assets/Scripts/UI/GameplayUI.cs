@@ -15,6 +15,6 @@ public class GameplayUI : MonoBehaviour
     public void ChangeThrustSliderValue(float value) =>
         _thrustSlider.value = value / Player.Instance.JetpackCapacity;
 
-    public void ChangeShardsText(int needToCollect, int alredyCollected) => _shardsCount.text = $"{needToCollect}/{alredyCollected}";
+    public void ChangeCollectedShards(int needToCollect, int alredyCollected) => _shardsCount.text = $"{alredyCollected}/{needToCollect}";
 
 }

@@ -46,6 +46,7 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        CurrentLevel.FindShards();
         _rgbd2D = GetComponent<Rigidbody2D>();
         _particleSystem = GetComponent<ParticleSystem>();
         _collider = GetComponent<BoxCollider2D>();
