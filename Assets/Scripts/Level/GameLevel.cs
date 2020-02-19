@@ -23,8 +23,17 @@ public class GameLevel
 
     public void LoadLevel() => SceneManager.LoadScene(SceneID);
 
+    public void GenerateLevelObject()
+    {
+
+    }
+
     public GameLevel(int SceneID)
     {
         this.SceneID = SceneID;
+        LoadLevel();
+        var obj = GameObject.FindGameObjectsWithTag("Shard");
+        LevelShards = obj.Length;
+        Player.Instance.CurrentLevel = this;
     }
 }

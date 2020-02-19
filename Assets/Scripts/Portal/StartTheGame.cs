@@ -8,6 +8,4 @@ public class StartTheGame : MonoBehaviour {
 	void Start() {
 		SceneManager.LoadScene("level1-3");
 	}
-
-
 }

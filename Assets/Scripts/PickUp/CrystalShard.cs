@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-
 public class CrystalShard : MonoBehaviour, IPickUp
 {
     private Collider2D _collider;

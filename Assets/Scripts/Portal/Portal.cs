@@ -7,7 +7,6 @@ public class Portal : MonoBehaviour {
 
     public int lightYearChange = 2;
 
-
     [SerializeField]
     private int whereToGo;
 
@@ -70,19 +69,15 @@ public class Portal : MonoBehaviour {
     }
 
 
-
-
     private void SetDestination(int i) {
         whereToGo = i;
     }
 
 
-
     void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Player") {
-            SceneManager.LoadScene(whereToGo);
+            //SceneManager.LoadScene(whereToGo);
+            new GameLevel(whereToGo);
         }
     }
-
-
 }
