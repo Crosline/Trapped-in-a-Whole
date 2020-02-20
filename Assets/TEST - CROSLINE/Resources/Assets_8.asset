@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Platform_Jungle_Tile_Set (1)_50
+  m_Name: Assets_8
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 6382877112414898956, guid: ab2b7ce12c62b304198be9e580248485,
+  m_Sprite: {fileID: -785316468612060372, guid: 7872d6fe39887b4438a361db884996cc,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
