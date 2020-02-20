@@ -27,6 +27,7 @@ public class GameLevel
             // if all shards collected, you your portal system
             if (_shardsCollected == LevelShards)
             {
+                PortalManager.Instance.ActivatePortals();
                 // Activate Portal
             }
         }

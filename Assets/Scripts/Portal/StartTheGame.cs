@@ -5,6 +5,11 @@ public class StartTheGame : MonoBehaviour
 {
 	// Start is called before the first frame update
 	void Start() {
-		new GameLevel(0);
+
+		if (Random.Range(0, 2) == 0)
+			new GameLevel(4);
+		else
+			new GameLevel(5);
+
 	}
 }

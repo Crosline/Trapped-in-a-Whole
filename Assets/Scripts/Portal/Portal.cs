@@ -10,23 +10,25 @@ public class Portal : MonoBehaviour {
     [SerializeField]
     private int whereToGo;
 
-    private Dictionary<int, int> pairs;
+    //private Dictionary<int, int> pairs;
 
     void Awake() {
         DontDestroyOnLoad(gameObject);
 
-        pairs = new Dictionary<int, int>();
-        CheckPortal();
+        //pairs = new Dictionary<int, int>();
+        //CheckPortal();
+        CreatePortal();
 
 
     }
 
     void OnLevelWasLoaded(int level) {
 
-        CheckPortal();
+        CreatePortal();
+        //CheckPortal();
     }
 
-    private void CheckPortal() {
+    /*private void CheckPortal() {
 
         int tempIndex = SceneManager.GetActiveScene().buildIndex;
         if (pairs.ContainsKey(tempIndex)) {
@@ -35,24 +37,24 @@ public class Portal : MonoBehaviour {
             CreatePortal();
         }
 
-    }
+    }*/
 
     private void CreatePortal() {
 
         int newWorld = -1;
 
-        while (newWorld == -1 || (newWorld <= lightYearChange + 1 && newWorld > 0) || newWorld >= SceneManager.sceneCountInBuildSettings - lightYearChange) {
-
-
+        while (newWorld == -1) {
             if (gameObject.name == "Portal1") {
-                newWorld = Random.Range(SceneManager.GetActiveScene().buildIndex - lightYearChange, SceneManager.GetActiveScene().buildIndex);
+                newWorld = Random.Range(SceneManager.GetActiveScene().buildIndex + 2, SceneManager.GetActiveScene().buildIndex + lightYearChange + 1);
             } else if (gameObject.name == "Portal2") {
-                newWorld = Random.Range(SceneManager.GetActiveScene().buildIndex + 1, SceneManager.GetActiveScene().buildIndex + lightYearChange + 1);
+                newWorld = Random.Range(SceneManager.GetActiveScene().buildIndex - lightYearChange, SceneManager.GetActiveScene().buildIndex - 1);
+            } else if (gameObject.name == "Portal3") {
+                newWorld = Random.Range(SceneManager.GetActiveScene().buildIndex + 1, SceneManager.GetActiveScene().buildIndex + lightYearChange);
             } else {
-                newWorld = Random.Range(SceneManager.GetActiveScene().buildIndex + 1, SceneManager.GetActiveScene().buildIndex + lightYearChange + 1);
+                newWorld = Random.Range(SceneManager.GetActiveScene().buildIndex - lightYearChange + 1, SceneManager.GetActiveScene().buildIndex);
             }
 
-            if (newWorld >= SceneManager.sceneCountInBuildSettings - 2) {
+            if (newWorld >= SceneManager.sceneCountInBuildSettings - lightYearChange) {
                 newWorld = SceneManager.GetActiveScene().buildIndex + 1;
                 break;
             } else if (newWorld <= lightYearChange + 1) {
@@ -64,7 +66,7 @@ public class Portal : MonoBehaviour {
 
         SetDestination(newWorld);
 
-        pairs.Add(SceneManager.GetActiveScene().buildIndex, newWorld);
+        //pairs.Add(SceneManager.GetActiveScene().buildIndex, newWorld);
 
     }
 
@@ -74,9 +76,12 @@ public class Portal : MonoBehaviour {
     }
 
 
+
+
     void OnTriggerEnter2D(Collider2D collision) {
+        Debug.Log("Hello");
         if (collision.gameObject.tag == "Player") {
-            //SceneManager.LoadScene(whereToGo);
+            Debug.Log("Player");
             new GameLevel(whereToGo);
             
         }
