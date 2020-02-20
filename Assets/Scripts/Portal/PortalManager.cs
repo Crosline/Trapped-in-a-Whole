@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class PortalManager : MonoBehaviour {
 
+
+
+    public static PortalManager Instance;
+
+
     public Transform[] p;
 
 
@@ -14,6 +19,7 @@ public class PortalManager : MonoBehaviour {
     GameObject portal3;
     GameObject portal4;
 
+    private void Awake() => Instance = this;
     void Start() {
 
         portal1 = GameObject.Find("Portal1");
