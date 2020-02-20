@@ -46,13 +46,13 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        CurrentLevel.FindShards();
+       // CurrentLevel.FindShards();
         _rgbd2D = GetComponent<Rigidbody2D>();
         _particleSystem = GetComponent<ParticleSystem>();
         _collider = GetComponent<BoxCollider2D>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         Move();
         GroundCheck();
@@ -106,6 +106,12 @@ public class Player : MonoBehaviour
 
         _isJumped = false;
         JetpackThrust += _jetPackRestoringSpeed;
+    }
+
+    private IEnumerator Die()
+    {
+        //todo: reload level and die anim;
+        yield break;
     }
 
     private IEnumerator Dash(float direction)

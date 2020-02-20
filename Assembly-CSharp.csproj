@@ -64,7 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Enemies\IEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enemies\LRWalker.cs" />
     <Compile Include="Assets\Scripts\Level\GameLevel.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Managers\DataManger.cs" />
