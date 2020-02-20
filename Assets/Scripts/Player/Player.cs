@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D _rgbd2D;
     private BoxCollider2D _collider;
+    private Animator _animator;
 
     public static GameLevel CurrentLevel;
 
@@ -43,10 +44,14 @@ public class Player : MonoBehaviour
 
     [SerializeField] private ParticleSystem _particleSystem;
 
+    private float _horizontalMove;
+    private bool jumpedLastFrame;
+
     private void Awake()
     {
         Instance = this;
-       // CurrentLevel.FindShards();
+        // CurrentLevel.FindShards();
+        _animator = GetComponent<Animator>();
         _rgbd2D = GetComponent<Rigidbody2D>();
         _particleSystem = GetComponent<ParticleSystem>();
         _collider = GetComponent<BoxCollider2D>();
@@ -54,57 +59,107 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        Move();
         GroundCheck();
+        CheckInputs();
+        Flip();
+        PlayAnimations();
     }
 
     private void Jump()
     {
+        _animator.SetBool("Jump", true);
         _isJumped = true;
+        jumpedLastFrame = true;
         _isGrounded = false;
-
-        _rgbd2D.AddForce(Vector3.up * _jumpPower / _rgbd2D.gravityScale * 100); 
+        _rgbd2D.AddForce(Vector3.up * _jumpPower / _rgbd2D.gravityScale * 100);
         Debug.Log("JUMP");
     }
 
-    public void Move()
+    private void PlayAnimations()
     {
-        if (Input.GetButtonDown("Jump") && _isGrounded)
-            Jump();
+        _animator.SetBool("Fall", _rgbd2D.velocity.y < 0);
 
-        else if (Input.GetButton("Jump") && !_isGrounded)
+    }
+
+    private void Flip()
+    {
+        if (_horizontalMove > 0)
+            transform.localRotation = Quaternion.Euler(0, 0, 0);
+
+        else if (_horizontalMove < 0)
+            transform.localRotation = Quaternion.Euler(0, 180, 0);
+    }
+
+    public void CheckInputs()
+    {
+        _horizontalMove = Input.GetAxis("Horizontal");
+
+        if (Input.GetButtonDown("Jump") && _isJumped)
+        {
+            _animator.SetBool("Jump", false);
+            _isJumped = false;
+        }
+
+        if (Input.GetButton("Jump") && !_isJumped && !_isGrounded)
             UseThrust();
+
+        if (Input.GetButtonDown("Jump") && _isGrounded && !_isJumped)
+            Jump();
 
         if (Input.GetKeyDown(KeyCode.V) && !_isDashing)
             StartCoroutine(Dash(Input.GetAxisRaw("Horizontal")));
 
         if (Input.GetAxis("Horizontal") != 0)
-            _rgbd2D.position = (_rgbd2D.position + new Vector2(_movingSpeed * Time.deltaTime * Input.GetAxis("Horizontal"),0));
+            Move();
+    }
+
+    private void Move()
+    {
+        _rgbd2D.position = (_rgbd2D.position + new Vector2(_movingSpeed * Time.deltaTime * _horizontalMove, 0));
+       
+        if (Mathf.Abs(_horizontalMove) >= 0.1f)
+            _animator.SetFloat("Speed", 1);
+        else
+            _animator.SetFloat("Speed", 0);
     }
 
     private void UseThrust()
     {
+        _animator.SetBool("Thrust", true);
+        _animator.SetBool("Ground", false);
         _isGrounded = false;
         if (_jetpackThrust <= 0)
         {
-            // TODO: Logic for no trt situation
+            _animator.SetBool("Fall", true);
+            _animator.SetBool("Thrust", false);
             _jetpackThrust = 0;
             return;
         }
         JetpackThrust -= Time.deltaTime;
         _rgbd2D.AddForce(Vector3.up * Time.deltaTime * _jetpackPower / _rgbd2D.gravityScale * 1000);
         _particleSystem.Play();
+       // _animator.SetBool("Thrust", false);
     }
 
     private void GroundCheck()
     {
-        _isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - _collider.size.x / 2 + 0.05f, transform.position.y - _collider.size.y / 2 - 0.01f), 
-            new Vector2(transform.position.x + _collider.size.x / 2 - 0.05f, transform.position.y - _collider.size.y / 2), layer);
+        if (jumpedLastFrame)
+        {
+            jumpedLastFrame = false;
+            return;
+        }
+
+        _isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - _collider.size.x / 2 + 0.05f, transform.position.y - _collider.size.y / 2 + 0.01f), 
+            new Vector2(transform.position.x + _collider.size.x / 2 - 0.05f, transform.position.y - _collider.size.y / 2 - 0.05f), layer);
 
         if (!_isGrounded)
             return;
 
         _isJumped = false;
+        _animator.SetBool("Ground", true);
+        _animator.SetBool("Jump", false);
+        _animator.SetBool("Thrust", false);
+        _animator.SetBool("Fall", false);
         JetpackThrust += _jetPackRestoringSpeed;
     }
 
@@ -116,6 +171,8 @@ public class Player : MonoBehaviour
 
     private IEnumerator Dash(float direction)
     {
+        _animator.SetTrigger("Dash");
+
         if (direction == 0)
             yield break;
 
@@ -129,5 +186,6 @@ public class Player : MonoBehaviour
 
         yield return new WaitForSecondsRealtime(_dashTimeout);
         _isDashing = false;
+        _animator.ResetTrigger("Dash");
     }
 }
