@@ -1,7 +1,214 @@
 fileFormatVersion: 2
 guid: 68f7edb035f911c4bbfeafaa925f2851
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8007280509991781379
+    second: Gatein-Jungle-Atlas_0
+  - first:
+      213: 2924571946561980966
+    second: Gatein-Jungle-Atlas_1
+  - first:
+      213: -6718861561321239565
+    second: Gatein-Jungle-Atlas_2
+  - first:
+      213: -5195645528183857013
+    second: Gatein-Jungle-Atlas_3
+  - first:
+      213: 7981360597003633848
+    second: Gatein-Jungle-Atlas_4
+  - first:
+      213: -206583930169575285
+    second: Gatein-Jungle-Atlas_5
+  - first:
+      213: 6159103280626226313
+    second: Gatein-Jungle-Atlas_6
+  - first:
+      213: -8208652433488625190
+    second: Gatein-Jungle-Atlas_7
+  - first:
+      213: 7816510959447984533
+    second: Gatein-Jungle-Atlas_8
+  - first:
+      213: 3905907502088718827
+    second: Gatein-Jungle-Atlas_9
+  - first:
+      213: 5476755810305864813
+    second: Gatein-Jungle-Atlas_10
+  - first:
+      213: 6035135584325385294
+    second: Gatein-Jungle-Atlas_11
+  - first:
+      213: 6376463065820282035
+    second: Gatein-Jungle-Atlas_12
+  - first:
+      213: -829830619605119
+    second: Gatein-Jungle-Atlas_13
+  - first:
+      213: 963425791884473730
+    second: Gatein-Jungle-Atlas_14
+  - first:
+      213: -3275647318060278886
+    second: Gatein-Jungle-Atlas_15
+  - first:
+      213: -7684516226538020361
+    second: Gatein-Jungle-Atlas_16
+  - first:
+      213: 8813574529132096845
+    second: Gatein-Jungle-Atlas_17
+  - first:
+      213: -1609696522850098995
+    second: Gatein-Jungle-Atlas_18
+  - first:
+      213: 3970283062370088371
+    second: Gatein-Jungle-Atlas_19
+  - first:
+      213: -1109152516587445415
+    second: Gatein-Jungle-Atlas_20
+  - first:
+      213: 1145036084225728712
+    second: Gatein-Jungle-Atlas_21
+  - first:
+      213: 7639653274671413910
+    second: Gatein-Jungle-Atlas_22
+  - first:
+      213: 7489079198687111594
+    second: Gatein-Jungle-Atlas_23
+  - first:
+      213: -5140458780683732631
+    second: Gatein-Jungle-Atlas_24
+  - first:
+      213: -672207375284332785
+    second: Gatein-Jungle-Atlas_25
+  - first:
+      213: 1312146312722443206
+    second: Gatein-Jungle-Atlas_26
+  - first:
+      213: 8280733853428549585
+    second: Gatein-Jungle-Atlas_27
+  - first:
+      213: -6687797556923603914
+    second: Gatein-Jungle-Atlas_28
+  - first:
+      213: -1955168154546462257
+    second: Gatein-Jungle-Atlas_29
+  - first:
+      213: 8006540685611447387
+    second: Gatein-Jungle-Atlas_30
+  - first:
+      213: 4513871758664701095
+    second: Gatein-Jungle-Atlas_31
+  - first:
+      213: -8769943677712524776
+    second: Gatein-Jungle-Atlas_32
+  - first:
+      213: 4071333859617344901
+    second: Gatein-Jungle-Atlas_33
+  - first:
+      213: -1552303278084458738
+    second: Gatein-Jungle-Atlas_34
+  - first:
+      213: 8752805454447010612
+    second: Gatein-Jungle-Atlas_35
+  - first:
+      213: 8707053448892051780
+    second: Gatein-Jungle-Atlas_36
+  - first:
+      213: -3216606118417677342
+    second: Gatein-Jungle-Atlas_37
+  - first:
+      213: -1118121551175051226
+    second: Gatein-Jungle-Atlas_38
+  - first:
+      213: 1395886428686210804
+    second: Gatein-Jungle-Atlas_39
+  - first:
+      213: 1339212301338662826
+    second: Gatein-Jungle-Atlas_40
+  - first:
+      213: -8064233620571272165
+    second: Gatein-Jungle-Atlas_41
+  - first:
+      213: 7937268160706173441
+    second: Gatein-Jungle-Atlas_42
+  - first:
+      213: -6708749784018565619
+    second: Gatein-Jungle-Atlas_43
+  - first:
+      213: -3442790441617100562
+    second: Gatein-Jungle-Atlas_44
+  - first:
+      213: -2269712387084984003
+    second: Gatein-Jungle-Atlas_45
+  - first:
+      213: 5161272402880334412
+    second: Gatein-Jungle-Atlas_46
+  - first:
+      213: -7598426230008035467
+    second: Gatein-Jungle-Atlas_47
+  - first:
+      213: -1923215098060172784
+    second: Gatein-Jungle-Atlas_48
+  - first:
+      213: -3810557887863511646
+    second: Gatein-Jungle-Atlas_49
+  - first:
+      213: -2368509833857272742
+    second: Gatein-Jungle-Atlas_50
+  - first:
+      213: 7909229225765206686
+    second: Gatein-Jungle-Atlas_51
+  - first:
+      213: 3535055367917104628
+    second: Gatein-Jungle-Atlas_52
+  - first:
+      213: -7244198170610095520
+    second: Gatein-Jungle-Atlas_53
+  - first:
+      213: 5678154658060334300
+    second: Gatein-Jungle-Atlas_54
+  - first:
+      213: -7360166113217288759
+    second: Gatein-Jungle-Atlas_55
+  - first:
+      213: -4093813244932787758
+    second: Gatein-Jungle-Atlas_56
+  - first:
+      213: -1291640598732105350
+    second: Gatein-Jungle-Atlas_57
+  - first:
+      213: 4923351600689240848
+    second: Gatein-Jungle-Atlas_58
+  - first:
+      213: 5554405856607817734
+    second: Gatein-Jungle-Atlas_59
+  - first:
+      213: -3551476913266946465
+    second: Gatein-Jungle-Atlas_60
+  - first:
+      213: -2390919101000874535
+    second: Gatein-Jungle-Atlas_61
+  - first:
+      213: 7511511503777506976
+    second: Gatein-Jungle-Atlas_62
+  - first:
+      213: -4592347720464373469
+    second: Gatein-Jungle-Atlas_63
+  - first:
+      213: -5734948041500306703
+    second: Gatein-Jungle-Atlas_7
+  - first:
+      213: 6029865560197107558
+    second: Gatein-Jungle-Atlas_8
+  - first:
+      213: 8782504180268497744
+    second: Gatein-Jungle-Atlas_14
+  - first:
+      213: 3912043120916670247
+    second: Gatein-Jungle-Atlas_21
+  - first:
+      213: 2843594510367356790
+    second: Gatein-Jungle-Atlas_22
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,7 +291,931 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 247
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30408fe03339f1f60800000000000000
+      internalID: 8007280509991781379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 222
+        width: 9
+        height: 31
+      alignment: 9
+      pivot: {x: -0, y: 0.2580645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a46eab0ba269820800000000000000
+      internalID: 2924571946561980966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 222
+        width: 9
+        height: 31
+      alignment: 9
+      pivot: {x: -0, y: 0.2580645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbcb6e020fc1c2a0800000000000000
+      internalID: -6718861561321239565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 222
+        width: 13
+        height: 31
+      alignment: 9
+      pivot: {x: 0.30769232, y: 0.2580645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8021c97beb55e7b0800000000000000
+      internalID: -5195645528183857013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 222
+        width: 19
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.2580645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b483b80d2d73ce60800000000000000
+      internalID: 7981360597003633848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 222
+        width: 22
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5909091, y: 0.2580645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8830f19201122df0800000000000000
+      internalID: -206583930169575285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 221
+        width: 21
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.28125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9845ba82dc7897550800000000000000
+      internalID: 6159103280626226313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 158
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be90883cd22943630800000000000000
+      internalID: 3905907502088718827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 158
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6476d27468510c40800000000000000
+      internalID: 5476755810305864813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_11
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 158
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cb803a6db11c350800000000000000
+      internalID: 6035135584325385294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 157
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcbd99df5fbd7850800000000000000
+      internalID: 6376463065820282035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_13
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 158
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187d1b0064d0dfff0800000000000000
+      internalID: -829830619605119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 103
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b5e8d8e109a82d0800000000000000
+      internalID: -3275647318060278886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 94
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1e97ec43d1b5590800000000000000
+      internalID: -7684516226538020361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 94
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d6952865b105a70800000000000000
+      internalID: 8813574529132096845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 94
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0a65f7a8539a9e0800000000000000
+      internalID: -1609696522850098995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 93
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5b156e867491730800000000000000
+      internalID: 3970283062370088371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 94
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9532317a9af7b90f0800000000000000
+      internalID: -1109152516587445415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 30
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa923843add8ee760800000000000000
+      internalID: 7489079198687111594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 30
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969feca69fb69a8b0800000000000000
+      internalID: -5140458780683732631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 30
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0797c424f6dba6f0800000000000000
+      internalID: -672207375284332785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 29
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbe82f8e1ea53210800000000000000
+      internalID: 1312146312722443206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 30
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7092501931be270800000000000000
+      internalID: 8280733853428549585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_28
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 222
+        width: 9
+        height: 31
+      alignment: 9
+      pivot: {x: -0, y: 0.2580645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634e7d13e8b2033a0800000000000000
+      internalID: -6687797556923603914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 222
+        width: 23
+        height: 31
+      alignment: 9
+      pivot: {x: 0.6086957, y: 0.2580645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc12a102ce8ddd4e0800000000000000
+      internalID: -1955168154546462257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 221
+        width: 24
+        height: 32
+      alignment: 9
+      pivot: {x: 0.625, y: 0.28125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5435954552fc1f60800000000000000
+      internalID: 8006540685611447387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 222
+        width: 9
+        height: 31
+      alignment: 9
+      pivot: {x: 0, y: 0.2580645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a490e0f27e74ae30800000000000000
+      internalID: 4513871758664701095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 158
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4336a6cbf26387970800000000000000
+      internalID: 8752805454447010612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 158
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441fc85dafaa5d870800000000000000
+      internalID: 8707053448892051780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 157
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3cd5117c15c53d0800000000000000
+      internalID: -3216606118417677342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 94
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ad8e5b657d62e60800000000000000
+      internalID: 7937268160706173441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 94
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06489cad9bb5e2a0800000000000000
+      internalID: -6708749784018565619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 93
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee07d438550c830d0800000000000000
+      internalID: -3442790441617100562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_46
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 97
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a85b2a7e580a740800000000000000
+      internalID: 5161272402880334412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_47
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 106
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5774c5c1a97fc8690800000000000000
+      internalID: -7598426230008035467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_49
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 30
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a525d94acd2e1bc0800000000000000
+      internalID: -3810557887863511646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_50
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 30
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54fae1eadc512fd0800000000000000
+      internalID: -2368509833857272742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_51
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 29
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a7fd0731a33cd60800000000000000
+      internalID: 7909229225765206686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 158
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f25d0d242f5960b0800000000000000
+      internalID: -5734948041500306703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 158
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f09e687c26ea350800000000000000
+      internalID: 6029865560197107558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 94
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b794f2509b1e970800000000000000
+      internalID: 8782504180268497744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 94
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a13c5b0b6ea4680800000000000000
+      internalID: -8769943677712524776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 30
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727af38dd7e5a4630800000000000000
+      internalID: 3912043120916670247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 30
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67772b3242a767720800000000000000
+      internalID: 2843594510367356790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

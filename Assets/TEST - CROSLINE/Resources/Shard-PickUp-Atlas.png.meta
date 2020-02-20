@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: e7258e2cde788b649b98009b4c6cd271
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 420444369518085832
+    second: Shard-PickUp-Atlas_0
+  - first:
+      213: -3939364685361758422
+    second: Shard-PickUp-Atlas_1
+  - first:
+      213: 4971496401476251815
+    second: Shard-PickUp-Atlas_2
+  - first:
+      213: -6497030564354691007
+    second: Shard-PickUp-Atlas_3
+  - first:
+      213: 6868933056992593020
+    second: Shard-PickUp-Atlas_4
+  - first:
+      213: 3538857628858745024
+    second: Shard-PickUp-Atlas_5
+  - first:
+      213: -239050362074083828
+    second: Shard-PickUp-Atlas_6
+  - first:
+      213: -7237284541381604317
+    second: Shard-PickUp-Atlas_7
+  - first:
+      213: 1625734782102765594
+    second: Shard-PickUp-Atlas_8
+  - first:
+      213: -2534851996739338508
+    second: Shard-PickUp-Atlas_9
+  - first:
+      213: -5456553483441955251
+    second: Shard-PickUp-Atlas_10
+  - first:
+      213: 7385382289311521903
+    second: Shard-PickUp-Atlas_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,7 +120,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Shard-PickUp-Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c640fc2de7b5d500800000000000000
+      internalID: 420444369518085832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shard-PickUp-Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f3b48b0b09459c0800000000000000
+      internalID: -3939364685361758422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shard-PickUp-Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0ff1413ad4ef440800000000000000
+      internalID: 4971496401476251815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shard-PickUp-Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14078ccdf19e5d5a0800000000000000
+      internalID: -6497030564354691007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shard-PickUp-Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 0
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c08ec6834c8c1130800000000000000
+      internalID: 3538857628858745024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shard-PickUp-Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c068ced00009b90800000000000000
+      internalID: -7237284541381604317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shard-PickUp-Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e9581548d6644b0800000000000000
+      internalID: -5456553483441955251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
