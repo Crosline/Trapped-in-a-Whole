@@ -50,11 +50,15 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        // CurrentLevel.FindShards();
         _animator = GetComponent<Animator>();
         _rgbd2D = GetComponent<Rigidbody2D>();
         _particleSystem = GetComponent<ParticleSystem>();
         _collider = GetComponent<BoxCollider2D>();
+    }
+
+    private void Start() 
+    {
+        CurrentLevel.FindShards();
     }
 
     private void Update()
@@ -111,11 +115,15 @@ public class Player : MonoBehaviour
 
         if (Input.GetAxis("Horizontal") != 0)
             Move();
+
+        if (!Input.GetButton("Jump"))
+            JetpackThrust += _jetPackRestoringSpeed;
+
     }
 
     private void Move()
     {
-        _rgbd2D.position = (_rgbd2D.position + new Vector2(_movingSpeed * Time.deltaTime * _horizontalMove, 0));
+        _rgbd2D.velocity = new Vector2(_movingSpeed * _horizontalMove, _rgbd2D.velocity.y);
        
         if (Mathf.Abs(_horizontalMove) >= 0.1f)
             _animator.SetFloat("Speed", 1);
@@ -130,7 +138,7 @@ public class Player : MonoBehaviour
         _isGrounded = false;
         if (_jetpackThrust <= 0)
         {
-            _animator.SetBool("Fall", true);
+            //_animator.SetBool("Fall", true);
             _animator.SetBool("Thrust", false);
             _jetpackThrust = 0;
             return;
@@ -160,7 +168,7 @@ public class Player : MonoBehaviour
         _animator.SetBool("Jump", false);
         _animator.SetBool("Thrust", false);
         _animator.SetBool("Fall", false);
-        JetpackThrust += _jetPackRestoringSpeed;
+        //JetpackThrust += _jetPackRestoringSpeed;
     }
 
     private IEnumerator Die()

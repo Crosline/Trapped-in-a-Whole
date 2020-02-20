@@ -32,6 +32,7 @@ public class PortalManager : MonoBehaviour {
             Destroy(portal1);
             Destroy(portal2);
             Destroy(portal3);
+            Destroy(portal4);
         }
 
         PortalSetup();
@@ -41,10 +42,10 @@ public class PortalManager : MonoBehaviour {
 
 
     public void ActivatePortals() {
-        portal1.GetComponent<BoxCollider2D>().enabled = true;
-        portal2.GetComponent<BoxCollider2D>().enabled = true;
-        portal3.GetComponent<BoxCollider2D>().enabled = true;
-        portal4.GetComponent<BoxCollider2D>().enabled = true;
+        portal1.GetComponent<Portal>().ActivateMe();
+        portal2.GetComponent<Portal>().ActivateMe();
+        portal3.GetComponent<Portal>().ActivateMe();
+        portal4.GetComponent<Portal>().ActivateMe();
     }
 
 

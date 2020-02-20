@@ -17,7 +17,7 @@ public class CrystalShard : MonoBehaviour, IPickUp {
     {
         isPickedUp = true;
         _animator.SetTrigger("Collect");
-        _collider2D.enabled = false;
+        //_collider2D.enabled = false;
         PickUpEffect();
     }
 
@@ -27,10 +27,10 @@ public class CrystalShard : MonoBehaviour, IPickUp {
     void Update() {
 
         if (isPickedUp) {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.4f, layerMask);
-            Debug.DrawRay(transform.position, Vector2.down * (.4f), Color.red);
-            if (hit.collider.tag != "DefaultTile")
-                transform.position = new Vector2(transform.position.x, transform.position.y - 1 * Time.deltaTime);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, _collider2D.bounds.size.y/2 + 0.01f, layerMask);
+            Debug.DrawRay(transform.position, Vector2.down * (0.6f), Color.red);
+            if (!hit)
+                transform.position = new Vector2(transform.position.x, transform.position.y - 3 * Time.deltaTime);
         }
 
     }

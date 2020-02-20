@@ -293,27 +293,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gatein-Jungle-Atlas_0
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 247
-        width: 4
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30408fe03339f1f60800000000000000
-      internalID: 8007280509991781379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Gatein-Jungle-Atlas_1
       rect:
         serializedVersion: 2
@@ -447,8 +426,8 @@ TextureImporter:
         y: 158
         width: 9
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -468,8 +447,8 @@ TextureImporter:
         y: 158
         width: 13
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.30769232, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -489,8 +468,8 @@ TextureImporter:
         y: 158
         width: 19
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -510,8 +489,8 @@ TextureImporter:
         y: 157
         width: 24
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.625, y: 0.28125}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -531,8 +510,8 @@ TextureImporter:
         y: 158
         width: 22
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.59090906, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -545,27 +524,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gatein-Jungle-Atlas_15
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 103
-        width: 4
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9b5e8d8e109a82d0800000000000000
-      internalID: -3275647318060278886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Gatein-Jungle-Atlas_16
       rect:
         serializedVersion: 2
@@ -573,8 +531,8 @@ TextureImporter:
         y: 94
         width: 9
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -594,8 +552,8 @@ TextureImporter:
         y: 94
         width: 13
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.30769232, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -615,8 +573,8 @@ TextureImporter:
         y: 94
         width: 19
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -636,8 +594,8 @@ TextureImporter:
         y: 93
         width: 24
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.625, y: 0.28125}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -657,8 +615,8 @@ TextureImporter:
         y: 94
         width: 22
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5909091, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -678,8 +636,8 @@ TextureImporter:
         y: 30
         width: 9
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -699,8 +657,8 @@ TextureImporter:
         y: 30
         width: 13
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.30769232, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -720,8 +678,8 @@ TextureImporter:
         y: 30
         width: 19
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -741,8 +699,8 @@ TextureImporter:
         y: 29
         width: 24
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.625, y: 0.28125}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -762,8 +720,8 @@ TextureImporter:
         y: 30
         width: 22
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5909091, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -867,8 +825,8 @@ TextureImporter:
         y: 158
         width: 9
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -888,8 +846,8 @@ TextureImporter:
         y: 158
         width: 23
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6086957, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -909,8 +867,8 @@ TextureImporter:
         y: 157
         width: 21
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.28125}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -930,8 +888,8 @@ TextureImporter:
         y: 94
         width: 9
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -951,8 +909,8 @@ TextureImporter:
         y: 94
         width: 23
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6086957, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -972,8 +930,8 @@ TextureImporter:
         y: 93
         width: 21
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.28125}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -986,48 +944,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gatein-Jungle-Atlas_46
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 97
-        width: 5
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4a85b2a7e580a740800000000000000
-      internalID: 5161272402880334412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gatein-Jungle-Atlas_47
-      rect:
-        serializedVersion: 2
-        x: 125
-        y: 106
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5774c5c1a97fc8690800000000000000
-      internalID: -7598426230008035467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Gatein-Jungle-Atlas_49
       rect:
         serializedVersion: 2
@@ -1035,8 +951,8 @@ TextureImporter:
         y: 30
         width: 9
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1056,8 +972,8 @@ TextureImporter:
         y: 30
         width: 23
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.6086957, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1077,8 +993,8 @@ TextureImporter:
         y: 29
         width: 21
         height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.28125}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1098,8 +1014,8 @@ TextureImporter:
         y: 158
         width: 9
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1119,8 +1035,8 @@ TextureImporter:
         y: 158
         width: 9
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1140,8 +1056,8 @@ TextureImporter:
         y: 94
         width: 9
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1154,27 +1070,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gatein-Jungle-Atlas_32
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 94
-        width: 9
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81a13c5b0b6ea4680800000000000000
-      internalID: -8769943677712524776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Gatein-Jungle-Atlas_21
       rect:
         serializedVersion: 2
@@ -1182,8 +1077,8 @@ TextureImporter:
         y: 30
         width: 9
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1203,8 +1098,8 @@ TextureImporter:
         y: 30
         width: 9
         height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0, y: 0.2580645}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1212,6 +1107,27 @@ TextureImporter:
       bones: []
       spriteID: 67772b3242a767720800000000000000
       internalID: 2843594510367356790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gatein-Jungle-Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 94
+        width: 9
+        height: 31
+      alignment: 9
+      pivot: {x: -0, y: 0.2580645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30408fe03339f1f60800000000000000
+      internalID: 8007280509991781379
       vertices: []
       indices: 
       edges: []

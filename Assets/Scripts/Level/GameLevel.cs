@@ -45,12 +45,14 @@ public class GameLevel
     {
         this.SceneID = SceneID;
         LoadLevel();
+        //Player.Instance.CurrentLevel = this;
         Player.CurrentLevel = this;
     }
 
     public void FindShards()
     {
         var obj = GameObject.FindGameObjectsWithTag("Shard");
+        Debug.Log("Shards: " + obj.Length);
         LevelShards = obj.Length;
     }
 }

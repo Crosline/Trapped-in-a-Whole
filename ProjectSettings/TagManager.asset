@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shard
+  - Portal
+  - DefaultTile
+  - oldPortal
   layers:
   - Default
   - TransparentFX
@@ -15,8 +18,8 @@ TagManager:
   - 
   - 
   - DefaultTile
-  - 
-  - 
+  - Player
+  - Shard
   - 
   - 
   - 

@@ -7,6 +7,8 @@ public class Portal : MonoBehaviour {
 
     public int lightYearChange = 2;
 
+    private Animator anime;
+
     [SerializeField]
     private int whereToGo;
 
@@ -14,7 +16,9 @@ public class Portal : MonoBehaviour {
 
     void Awake() {
         DontDestroyOnLoad(gameObject);
+        anime = GetComponent<Animator>();
 
+        anime.SetBool("Active", false);
         //pairs = new Dictionary<int, int>();
         //CheckPortal();
         CreatePortal();
@@ -24,6 +28,7 @@ public class Portal : MonoBehaviour {
 
     void OnLevelWasLoaded(int level) {
 
+        anime.SetBool("Active", false);
         CreatePortal();
         //CheckPortal();
     }
@@ -75,7 +80,11 @@ public class Portal : MonoBehaviour {
         whereToGo = i;
     }
 
-
+    public void ActivateMe() {
+        gameObject.GetComponent<BoxCollider2D>().enabled = true;
+        anime.SetBool("Active", true);
+        anime.SetTrigger("Activate");
+    }
 
 
     void OnTriggerEnter2D(Collider2D collision) {

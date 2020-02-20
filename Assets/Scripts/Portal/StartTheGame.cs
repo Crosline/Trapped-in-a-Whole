@@ -7,9 +7,9 @@ public class StartTheGame : MonoBehaviour
 	void Start() {
 
 		if (Random.Range(0, 2) == 0)
-			new GameLevel(4);
+			new GameLevel(3);
 		else
-			new GameLevel(5);
+			new GameLevel(4);
 
 	}
 }
