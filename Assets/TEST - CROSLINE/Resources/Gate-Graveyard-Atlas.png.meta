@@ -1,7 +1,106 @@
 fileFormatVersion: 2
 guid: bc12abc6e7b174b41945bf89235427aa
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1364555004055904294
+    second: Gate-Graveyard-Atlas_0
+  - first:
+      213: 7477088065596684413
+    second: Gate-Graveyard-Atlas_1
+  - first:
+      213: -502133882912659801
+    second: Gate-Graveyard-Atlas_2
+  - first:
+      213: 8931207647611854123
+    second: Gate-Graveyard-Atlas_3
+  - first:
+      213: 856112161432382824
+    second: Gate-Graveyard-Atlas_4
+  - first:
+      213: -1006602016427463914
+    second: Gate-Graveyard-Atlas_5
+  - first:
+      213: 3749627584584449998
+    second: Gate-Graveyard-Atlas_6
+  - first:
+      213: 7128652313749607151
+    second: Gate-Graveyard-Atlas_7
+  - first:
+      213: 3680563051688309475
+    second: Gate-Graveyard-Atlas_8
+  - first:
+      213: -9043671467098257977
+    second: Gate-Graveyard-Atlas_9
+  - first:
+      213: 1911489781666796594
+    second: Gate-Graveyard-Atlas_10
+  - first:
+      213: 3469460345534792946
+    second: Gate-Graveyard-Atlas_11
+  - first:
+      213: -9155055445653962083
+    second: Gate-Graveyard-Atlas_12
+  - first:
+      213: 4441775460567004639
+    second: Gate-Graveyard-Atlas_13
+  - first:
+      213: -3574328396999352475
+    second: Gate-Graveyard-Atlas_14
+  - first:
+      213: -6110934148780645113
+    second: Gate-Graveyard-Atlas_15
+  - first:
+      213: -7832004475420153171
+    second: Gate-Graveyard-Atlas_16
+  - first:
+      213: 3816207084245343661
+    second: Gate-Graveyard-Atlas_17
+  - first:
+      213: -3877297305762974130
+    second: Gate-Graveyard-Atlas_18
+  - first:
+      213: -5346719626386670841
+    second: Gate-Graveyard-Atlas_19
+  - first:
+      213: -3204285299519784536
+    second: Gate-Graveyard-Atlas_20
+  - first:
+      213: 5959849922405840112
+    second: Gate-Graveyard-Atlas_21
+  - first:
+      213: -8372149597909178810
+    second: Gate-Graveyard-Atlas_22
+  - first:
+      213: -5617962093906121762
+    second: Gate-Graveyard-Atlas_23
+  - first:
+      213: 5359225483608347468
+    second: Gate-Graveyard-Atlas_24
+  - first:
+      213: 3418227726490116641
+    second: Gate-Graveyard-Atlas_25
+  - first:
+      213: 7582489396866958240
+    second: Gate-Graveyard-Atlas_26
+  - first:
+      213: 2057803973518111911
+    second: Gate-Graveyard-Atlas_27
+  - first:
+      213: 7797474719260486565
+    second: Gate-Graveyard-Atlas_28
+  - first:
+      213: 5870840921872155517
+    second: Gate-Graveyard-Atlas_29
+  - first:
+      213: 8653468434887571578
+    second: Gate-Graveyard-Atlas_30
+  - first:
+      213: 7387942746730954601
+    second: Gate-Graveyard-Atlas_31
+  - first:
+      213: 997386784270599885
+    second: Gate-Graveyard-Atlas_32
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +130,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +139,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +162,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -72,7 +183,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Gate-Graveyard-Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 140
+        width: 20
+        height: 42
+      alignment: 9
+      pivot: {x: 0.25, y: 0.2857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620eb35eb8fdfe210800000000000000
+      internalID: 1364555004055904294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
