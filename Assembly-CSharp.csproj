@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\AnimatedTile.cs" />
+    <Compile Include="Assets\Clue.cs" />
     <Compile Include="Assets\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemies\LRWalker.cs" />

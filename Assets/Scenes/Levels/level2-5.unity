@@ -520,6 +520,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f45f32ff3259b4b46905c99edcad653e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clueSetup: {fileID: 0}
   p:
   - {fileID: 1472726529}
   - {fileID: 641501822}
@@ -778,6 +779,7 @@ GameObject:
   - component: {fileID: 1039811234}
   - component: {fileID: 1039811233}
   - component: {fileID: 1039811232}
+  - component: {fileID: 1039811235}
   m_Layer: 0
   m_Name: spikes
   m_TagString: Untagged
@@ -924,6 +926,18 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1039811235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1039811230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d260994efd988574fadbd8b258583db3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1279433356
 GameObject:
   m_ObjectHideFlags: 0

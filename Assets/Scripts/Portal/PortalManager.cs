@@ -9,6 +9,7 @@ public class PortalManager : MonoBehaviour {
 
     public static PortalManager Instance;
 
+    public Clue clueSetup;
 
     public Transform[] p;
 
@@ -26,7 +27,7 @@ public class PortalManager : MonoBehaviour {
         portal2 = GameObject.Find("Portal2");
         portal3 = GameObject.Find("Portal3");
         portal4 = GameObject.Find("Portal4");
-
+        clueSetup = GameObject.Find("CLUE").GetComponent<Clue>();
 
         if (SceneManager.GetActiveScene().buildIndex < 1 || SceneManager.GetActiveScene().buildIndex > 20) {
             Destroy(portal1);
@@ -64,11 +65,13 @@ public class PortalManager : MonoBehaviour {
         if (Random.Range(0, 2) == 0) {
 
             if (p.Length == 2) {
+                clueSetup.SetupClues(0);
                 portal1.name = "Portal2";
                 portal2.name = "Portal1";
                 // red good
                 // blue bad
             } else if (p.Length == 3) {
+                clueSetup.SetupClues(1);
                 portal1.name = "Portal2";
                 portal2.name = "Portal3";
                 portal3.name = "Portal1";
@@ -76,6 +79,7 @@ public class PortalManager : MonoBehaviour {
                 // blue bad
                 // green good
             } else if (p.Length == 4) {
+                clueSetup.SetupClues(2);
                 portal1.name = "Portal4";
                 portal2.name = "Portal3";
                 portal3.name = "Portal2";
@@ -86,6 +90,7 @@ public class PortalManager : MonoBehaviour {
                 // yellow good
             }
         } else {
+            clueSetup.SetupClues(3);
             /*
              * else condition is
              * blue good
