@@ -34,6 +34,7 @@ public class ParallaxBackground : MonoBehaviour
             
         }*/
 
+
         if (temp > startPos + length)
             startPos += length;
         else if (temp < startPos - length)

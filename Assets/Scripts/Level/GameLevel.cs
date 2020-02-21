@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 public class GameLevel
 {
     public int SceneID;
+
     public int LevelShards
     {
         get => _levelShards;
