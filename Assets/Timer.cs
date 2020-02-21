@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour {
 
+    public static Timer Instance;
+    
     private float time = 0;
     public TMPro.TextMeshProUGUI tmPro;
     public GameObject TimerCanvas;
@@ -17,9 +19,7 @@ public class Timer : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         time += Time.deltaTime;
-
         UpdateTime();
-
     }
 
     private void UpdateTime() {

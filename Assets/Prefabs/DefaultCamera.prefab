@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 913491189454274509}
   - component: {fileID: 913491189454274506}
   - component: {fileID: 4435861000228836222}
+  - component: {fileID: 1531066287}
   m_Layer: 0
   m_Name: DefaultCamera
   m_TagString: MainCamera
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 913491189454274507}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -40}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -43,7 +44,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.027839031, g: 0.3545389, b: 0.8679245, a: 0}
+  m_BackGroundColor: {r: 0.22970808, g: 0.35283577, b: 0.5471698, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -97,3 +98,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &1531066287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913491189454274507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e6341f8e1568d4da24ba3e4631bd37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: f1e1d0f0d12e8f541ac298f6ba8388ce, type: 3}
+  maskValue: 0
+  maskColor: {r: 0, g: 0, b: 0, a: 1}
+  maskTexture: {fileID: 2800000, guid: 1be2a5f03f0e7d54ab812de4ec53908c, type: 3}
+  maskInvert: 0

@@ -183,10 +183,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1773091539920958807, guid: acaa86e3f838ed642afa23975fadd00f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: aa6fd2a95bde34946818b8391708f56b,
+        type: 3}
     - target: {fileID: 1773091539920958888, guid: acaa86e3f838ed642afa23975fadd00f,
         type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964106616767258132, guid: acaa86e3f838ed642afa23975fadd00f,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964106616767258132, guid: acaa86e3f838ed642afa23975fadd00f,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6964106618651131082, guid: acaa86e3f838ed642afa23975fadd00f,
+        type: 3}
+      propertyPath: _fadeSpeed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acaa86e3f838ed642afa23975fadd00f, type: 3}
@@ -843,6 +864,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1531066287, guid: 02540dfaf6b306c41b6c1fec42858169, type: 3}
+      propertyPath: maskValue
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 913491189454274507, guid: 02540dfaf6b306c41b6c1fec42858169,
         type: 3}
       propertyPath: m_Name
@@ -902,6 +927,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 913491189454274509, guid: 02540dfaf6b306c41b6c1fec42858169,
+        type: 3}
+      propertyPath: m_Depth
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02540dfaf6b306c41b6c1fec42858169, type: 3}

@@ -54,11 +54,22 @@ public class Player : MonoBehaviour
         _rgbd2D = GetComponent<Rigidbody2D>();
         _particleSystem = GetComponent<ParticleSystem>();
         _collider = GetComponent<BoxCollider2D>();
+
     }
 
     private void Start() 
     {
+        StartCoroutine(Spawn());
+    }
+
+    private IEnumerator Spawn()
+    {
+        StartCoroutine(GameplayUI.Instance.FadeEffect(false));
+        yield return new WaitUntil(Waiting);
         CurrentLevel.FindShards();
+
+        Debug.Log("SPAWN!");
+        bool Waiting() => GameplayUI.Instance.isFading;
     }
 
     private void Update()
@@ -97,6 +108,7 @@ public class Player : MonoBehaviour
     public void CheckInputs()
     {
         _horizontalMove = Input.GetAxis("Horizontal");
+        Debug.Log($"Horiz move: {_horizontalMove}");
 
         if (Input.GetButtonDown("Jump") && _isJumped)
         {
@@ -172,9 +184,16 @@ public class Player : MonoBehaviour
 
     public IEnumerator Die()
     {
-        //todo: reload level and die anim;
+        Debug.Log("Dead method");
+        _animator.SetBool("Death", true);
 
-        yield break;
+        yield return new WaitForSecondsRealtime(1f);
+        StartCoroutine(GameplayUI.Instance.FadeEffect(true));
+        yield return new WaitUntil(Waiting);
+        yield return new WaitForSecondsRealtime(0.3f);
+        CurrentLevel.LoadLevel();
+
+        bool Waiting() => GameplayUI.Instance.isFading;
     }
 
     private IEnumerator Dash(float direction)

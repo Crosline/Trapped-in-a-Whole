@@ -47,7 +47,7 @@ Shader "Hidden/ScreenTransitionImageEffect"
 				o.uv = v.uv;
 
 			#if UNITY_UV_STARTS_AT_TOP
-				o.uv.y = 1 - o.uv.y;
+				//o.uv.y = 1 - o.uv.y;
 			#endif
 
 				return o;
