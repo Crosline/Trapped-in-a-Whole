@@ -98,11 +98,18 @@ public class Player : MonoBehaviour
 
     private void Flip()
     {
+
         if (_horizontalMove > 0)
+        {
             transform.localRotation = Quaternion.Euler(0, 0, 0);
+            Debug.Log(">0");
+        }
 
         else if (_horizontalMove < 0)
+        {
             transform.localRotation = Quaternion.Euler(0, 180, 0);
+            Debug.Log("<0");
+        }
     }
 
     public void CheckInputs()

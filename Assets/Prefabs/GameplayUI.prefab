@@ -224,7 +224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _thrustSlider: {fileID: 6130529929213830166}
   _shardsCount: {fileID: 6130529929752751383}
-  _fadeSpeed: 50
+  _fadeSpeed: 5
   isFading: 0
 --- !u!1 &6130529928944221612
 GameObject:
