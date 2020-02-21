@@ -134,11 +134,9 @@ public class Player : MonoBehaviour
     private void UseThrust()
     {
         _animator.SetBool("Thrust", true);
-        _animator.SetBool("Ground", false);
         _isGrounded = false;
         if (_jetpackThrust <= 0)
         {
-            //_animator.SetBool("Fall", true);
             _animator.SetBool("Thrust", false);
             _jetpackThrust = 0;
             return;
@@ -146,7 +144,6 @@ public class Player : MonoBehaviour
         JetpackThrust -= Time.deltaTime;
         _rgbd2D.AddForce(Vector3.up * Time.deltaTime * _jetpackPower / _rgbd2D.gravityScale * 1000);
         _particleSystem.Play();
-       // _animator.SetBool("Thrust", false);
     }
 
     private void GroundCheck()
@@ -160,8 +157,10 @@ public class Player : MonoBehaviour
         _isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - _collider.size.x / 2 + 0.05f, transform.position.y - _collider.size.y / 2 + 0.01f), 
             new Vector2(transform.position.x + _collider.size.x / 2 - 0.05f, transform.position.y - _collider.size.y / 2 - 0.05f), layer);
 
-        if (!_isGrounded)
+        if (!_isGrounded) {
+            _animator.SetBool("Ground", false);
             return;
+        }
 
         _isJumped = false;
         _animator.SetBool("Ground", true);
