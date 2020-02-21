@@ -9,8 +9,26 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 18aa978c8005ac64795b30a387f8b13d
   - enabled: 1
+    path: Assets/Scenes/Tutorials/tutorial1.unity
+    guid: e84fdd1cfaf56a142a8bd8dcae5ab3e3
+  - enabled: 1
+    path: Assets/Scenes/Tutorials/tutorial2.unity
+    guid: 7b1945aace222434abf780e8f8256ee1
+  - enabled: 1
+    path: Assets/Scenes/Tutorials/tutorial3.unity
+    guid: eb1b7f9e93cdf01498c799d72d590a79
+  - enabled: 1
+    path: Assets/Scenes/Tutorials/tutorial4.unity
+    guid: 872bfd0bc4d57714fb40b43c2977b346
+  - enabled: 1
+    path: Assets/Scenes/STORY.unity
+    guid: 488221569fac36f4ea2c87d495799d4c
+  - enabled: 1
     path: Assets/Scenes/StartGame.unity
     guid: 5fd163ef19c1bd54fb79ff88fd44a302
+  - enabled: 1
+    path: Assets/Scenes/LOSE.unity
+    guid: 2d0a05fcb47ea5748b36c75e3b410218
   - enabled: 1
     path: Assets/Scenes/Levels/level1-1.unity
     guid: ce0754726092ca844b16998c1d39c55c
@@ -47,6 +65,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/level3-4.unity
     guid: dd0d107f00f1a43449aa3431de818b2e
+  - enabled: 1
+    path: Assets/Scenes/WIN.unity
+    guid: 66130693dd4638a47858988dbeeb1369
   - enabled: 0
     path: Assets/Scenes/Test.unity
     guid: 62b4230489573b1488869112917f8ec1

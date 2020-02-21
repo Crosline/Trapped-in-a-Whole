@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
@@ -7,7 +6,11 @@ public class MainMenu : MonoBehaviour {
     private bool mainMenu = true;
 
     public void PlayGame() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        new GameLevel(6);
+    }
+
+    public void PlayTutorial() {
+        new GameLevel(1);
     }
 
     public void KillTheGame() {

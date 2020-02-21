@@ -28,7 +28,7 @@ public class PortalManager : MonoBehaviour {
         portal4 = GameObject.Find("Portal4");
 
 
-        if (SceneManager.GetActiveScene().buildIndex < 2 || SceneManager.GetActiveScene().buildIndex > SceneManager.sceneCountInBuildSettings - 1) {
+        if (SceneManager.GetActiveScene().buildIndex < 1 || SceneManager.GetActiveScene().buildIndex > 20) {
             Destroy(portal1);
             Destroy(portal2);
             Destroy(portal3);
@@ -42,10 +42,16 @@ public class PortalManager : MonoBehaviour {
 
 
     public void ActivatePortals() {
-        portal1.GetComponent<Portal>().ActivateMe();
-        portal2.GetComponent<Portal>().ActivateMe();
-        portal3.GetComponent<Portal>().ActivateMe();
-        portal4.GetComponent<Portal>().ActivateMe();
+        if (portal1.GetComponent<TutorialPortal>() != null) {
+            portal1.GetComponent<TutorialPortal>().ActivateMe();
+            portal2.GetComponent<TutorialPortal>().ActivateMe();
+        }
+        else {
+            portal1.GetComponent<Portal>().ActivateMe();
+            portal2.GetComponent<Portal>().ActivateMe();
+            portal3.GetComponent<Portal>().ActivateMe();
+            portal4.GetComponent<Portal>().ActivateMe();
+        }
     }
 
 
