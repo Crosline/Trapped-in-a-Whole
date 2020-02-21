@@ -170,9 +170,10 @@ public class Player : MonoBehaviour
         //JetpackThrust += _jetPackRestoringSpeed;
     }
 
-    private IEnumerator Die()
+    public IEnumerator Die()
     {
         //todo: reload level and die anim;
+
         yield break;
     }
 
