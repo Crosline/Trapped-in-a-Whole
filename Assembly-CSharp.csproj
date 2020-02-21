@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AnimatedTile.cs" />
     <Compile Include="Assets\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemies\LRWalker.cs" />
@@ -85,6 +86,7 @@
     <Compile Include="Assets\Scripts\UI\GameplayUI.cs" />
     <Compile Include="Assets\TEST - CROSLINE\PlayerCrosline.cs" />
     <Compile Include="Assets\TextScript.cs" />
+    <Compile Include="Assets\Trap.cs" />
     <Compile Include="Assets\TutorialPortal.cs" />
     <Compile Include="Assets\TutorialPortalManager.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />

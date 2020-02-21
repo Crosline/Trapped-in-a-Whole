@@ -81,7 +81,7 @@ public class Player : MonoBehaviour
 
     private void PlayAnimations()
     {
-        _animator.SetBool("Fall", _rgbd2D.velocity.y < 0);
+        _animator.SetBool("Fall", _rgbd2D.velocity.y < -1);
 
     }
 
@@ -178,12 +178,17 @@ public class Player : MonoBehaviour
 
     private IEnumerator Dash(float direction)
     {
-        _animator.SetTrigger("Dash");
 
         if (direction == 0)
             yield break;
 
+        if (JetpackThrust < _jetpackCapacity * 0.6f)
+            yield break;
+
         _isDashing = true;
+        _animator.SetTrigger("Dash");
+
+        JetpackThrust -= _jetpackCapacity * 0.6f;
 
         for (float i = 0; i<_dashDuration; i++)
         {
