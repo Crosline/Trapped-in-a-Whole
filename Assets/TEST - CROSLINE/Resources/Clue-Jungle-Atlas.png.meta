@@ -14,6 +14,18 @@ TextureImporter:
   - first:
       213: 6832197725577852559
     second: Clue-Jungle-Atlas_3
+  - first:
+      213: -6060640475608942598
+    second: Clue-Jungle-Atlas_0
+  - first:
+      213: -7673818898376638192
+    second: Clue-Jungle-Atlas_1
+  - first:
+      213: 9134426597575370365
+    second: Clue-Jungle-Atlas_2
+  - first:
+      213: 9211915981327316275
+    second: Clue-Jungle-Atlas_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -101,10 +113,10 @@ TextureImporter:
       name: Clue-Jungle-Atlas_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 2
         y: 0
-        width: 9
-        height: 15
+        width: 12
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55e15816ad1046e40800000000000000
-      internalID: 5648641870080056917
+      spriteID: af779fb199744eba0800000000000000
+      internalID: -6060640475608942598
       vertices: []
       indices: 
       edges: []
@@ -122,10 +134,10 @@ TextureImporter:
       name: Clue-Jungle-Atlas_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 18
         y: 0
-        width: 9
-        height: 15
+        width: 12
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9716e9fd3183eb3e0800000000000000
-      internalID: -2036128323517652615
+      spriteID: 011c49b9e5e118590800000000000000
+      internalID: -7673818898376638192
       vertices: []
       indices: 
       edges: []
@@ -143,10 +155,10 @@ TextureImporter:
       name: Clue-Jungle-Atlas_2
       rect:
         serializedVersion: 2
-        x: 36
+        x: 34
         y: 0
-        width: 9
-        height: 15
+        width: 12
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51b7dc0bee15e31d0800000000000000
-      internalID: -3369165385616229611
+      spriteID: d762c5f189004ce70800000000000000
+      internalID: 9134426597575370365
       vertices: []
       indices: 
       edges: []
@@ -164,10 +176,10 @@ TextureImporter:
       name: Clue-Jungle-Atlas_3
       rect:
         serializedVersion: 2
-        x: 52
+        x: 50
         y: 0
-        width: 9
-        height: 15
+        width: 12
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f86bc4402a7d0de50800000000000000
-      internalID: 6832197725577852559
+      spriteID: 33532c737cc47df70800000000000000
+      internalID: 9211915981327316275
       vertices: []
       indices: 
       edges: []

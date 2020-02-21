@@ -8,6 +8,7 @@ public class Portal : MonoBehaviour {
     public int lightYearChange = 2;
 
     private Animator anime;
+    private string originalName;
 
     [SerializeField]
     private int whereToGo;
@@ -16,21 +17,22 @@ public class Portal : MonoBehaviour {
 
     void Awake() {
         DontDestroyOnLoad(gameObject);
+        originalName = gameObject.name;
         anime = GetComponent<Animator>();
 
         anime.SetBool("Active", false);
         //pairs = new Dictionary<int, int>();
         //CheckPortal();
-        CreatePortal();
+        //CreatePortal();
 
 
     }
 
     void OnLevelWasLoaded(int level) {
-
+        gameObject.name = originalName;
         anime.SetBool("Active", false);
-        CreatePortal();
         //CheckPortal();
+        //CreatePortal();
     }
 
     /*private void CheckPortal() {
@@ -44,7 +46,7 @@ public class Portal : MonoBehaviour {
 
     }*/
 
-    private void CreatePortal() {
+    public void CreatePortal() {
 
         int newWorld = -1;
 
@@ -59,10 +61,10 @@ public class Portal : MonoBehaviour {
                 newWorld = Random.Range(SceneManager.GetActiveScene().buildIndex - lightYearChange + 1, SceneManager.GetActiveScene().buildIndex);
             }
 
-            if (newWorld >= SceneManager.sceneCountInBuildSettings - lightYearChange) {
+            if (newWorld >= 19) {
                 newWorld = SceneManager.GetActiveScene().buildIndex + 1;
                 break;
-            } else if (newWorld <= lightYearChange + 1) {
+            } else if (newWorld <= 10) {
                 newWorld = SceneManager.GetActiveScene().buildIndex - 1;
                 break;
             }

@@ -19,6 +19,7 @@ public class Trap : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Player")
+            //PLAYER DIES
             Debug.Log("OMAE WA MOU SHINDEIRU!");
     }
 
