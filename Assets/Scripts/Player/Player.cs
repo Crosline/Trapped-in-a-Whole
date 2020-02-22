@@ -99,8 +99,7 @@ public class Player : MonoBehaviour
     private void Flip()
     {
 
-        if (_horizontalMove > 0)
-        {
+        if (_horizontalMove > 0) {
             transform.localRotation = Quaternion.Euler(0, 0, 0);
             Debug.Log(">0");
         }

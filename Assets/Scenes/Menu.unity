@@ -1580,7 +1580,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 68, y: 573}
-  m_SizeDelta: {x: 2097, y: 393.1}
+  m_SizeDelta: {x: 2660, y: 346}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &505978680
 MonoBehaviour:
@@ -1595,7 +1595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.35686275, g: 0.7058824, b: 0.21568629, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1613,7 +1613,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Mr. Astronaut
+  m_Text: Trapped in a Whole
 --- !u!222 &505978681
 CanvasRenderer:
   m_ObjectHideFlags: 0

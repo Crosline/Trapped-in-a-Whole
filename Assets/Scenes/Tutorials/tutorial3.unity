@@ -193,6 +193,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4347158495688476200, guid: ba10aa56174915b4d9bfaffa24e46562,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1468892931}
+    - target: {fileID: 6857805764611801712, guid: ba10aa56174915b4d9bfaffa24e46562,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1468892931}
+    - target: {fileID: 6921135811287122855, guid: ba10aa56174915b4d9bfaffa24e46562,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1468892931}
+    - target: {fileID: 7168279527790041121, guid: ba10aa56174915b4d9bfaffa24e46562,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1468892931}
     - target: {fileID: 7333579298133241931, guid: ba10aa56174915b4d9bfaffa24e46562,
         type: 3}
       propertyPath: cam
@@ -208,6 +228,11 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8253199424393715966, guid: ba10aa56174915b4d9bfaffa24e46562,
+        type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 1468892931}
     - target: {fileID: 9057273710151613178, guid: ba10aa56174915b4d9bfaffa24e46562,
         type: 3}
       propertyPath: cam
@@ -3336,6 +3361,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02540dfaf6b306c41b6c1fec42858169, type: 3}
+--- !u!1 &1468892931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 913491189454274507, guid: 02540dfaf6b306c41b6c1fec42858169,
+    type: 3}
+  m_PrefabInstance: {fileID: 1468892930}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1589683197
 GameObject:
   m_ObjectHideFlags: 0
@@ -3688,7 +3719,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1881345587
 PrefabInstance:

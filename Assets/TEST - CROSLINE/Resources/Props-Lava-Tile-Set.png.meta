@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: 1494728df9d7adf4c8ae7984a98e05b5
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8132209398581136283
+    second: Props-Lava-Tile-Set_0
+  - first:
+      213: 504751368855305885
+    second: Props-Lava-Tile-Set_1
+  - first:
+      213: -4074699236759372736
+    second: Props-Lava-Tile-Set_2
+  - first:
+      213: -3696252578458586890
+    second: Props-Lava-Tile-Set_3
+  - first:
+      213: 1179829596821538933
+    second: Props-Lava-Tile-Set_4
+  - first:
+      213: 5331677654061036655
+    second: Props-Lava-Tile-Set_5
+  - first:
+      213: -618159779850176758
+    second: Props-Lava-Tile-Set_6
+  - first:
+      213: 4424335869261358634
+    second: Props-Lava-Tile-Set_7
+  - first:
+      213: 8911560427189351407
+    second: Props-Lava-Tile-Set_8
+  - first:
+      213: -4931266979632397958
+    second: Props-Lava-Tile-Set_9
+  - first:
+      213: -6226701533583092077
+    second: Props-Lava-Tile-Set_10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,7 +117,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Props-Lava-Tile-Set_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 94
+        width: 31
+        height: 18
+      alignment: 9
+      pivot: {x: 0.2580645, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e338812bc310700800000000000000
+      internalID: 504751368855305885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Lava-Tile-Set_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 76
+        width: 22
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04cf66202a2c377c0800000000000000
+      internalID: -4074699236759372736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Lava-Tile-Set_3
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 44
+        width: 14
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0badc0dd544bcc0800000000000000
+      internalID: -3696252578458586890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Lava-Tile-Set_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 61
+        width: 13
+        height: 13
+      alignment: 9
+      pivot: {x: 0.4615385, y: 0.7692308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5784a0e64c89f5010800000000000000
+      internalID: 1179829596821538933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Lava-Tile-Set_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 62
+        width: 4
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 1.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f643233f39cedf940800000000000000
+      internalID: 5331677654061036655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Lava-Tile-Set_6
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 62
+        width: 6
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 1.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07b89394fadb67f0800000000000000
+      internalID: -618159779850176758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Lava-Tile-Set_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 62
+        width: 4
+        height: 6
+      alignment: 9
+      pivot: {x: 0.5, y: 1.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26a75e2806666d30800000000000000
+      internalID: 4424335869261358634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Lava-Tile-Set_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 62
+        width: 6
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 1.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3bc093ef83cab70800000000000000
+      internalID: 8911560427189351407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Lava-Tile-Set_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 62
+        width: 5
+        height: 6
+      alignment: 9
+      pivot: {x: 0.4, y: 1.6666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71c56a1fce909bb0800000000000000
+      internalID: -4931266979632397958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Lava-Tile-Set_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 14
+        width: 46
+        height: 29
+      alignment: 9
+      pivot: {x: 0.17391305, y: 0.3448276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396566812ff4699a0800000000000000
+      internalID: -6226701533583092077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

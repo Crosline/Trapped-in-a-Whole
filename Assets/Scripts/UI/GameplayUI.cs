@@ -9,6 +9,7 @@ public class GameplayUI : MonoBehaviour
 
     [SerializeField] private Slider _thrustSlider;
     [SerializeField] private Text _shardsCount;
+    [SerializeField] private Text _lightYear;
     [SerializeField] private float _fadeSpeed;
     public bool isFading;
 
@@ -50,5 +51,6 @@ public class GameplayUI : MonoBehaviour
     }
 
     public void ChangeCollectedShards(int needToCollect, int alredyCollected) => _shardsCount.text = $"{alredyCollected}/{needToCollect}";
+    public void ChangeLightYear(int scene) => _lightYear.text = $"You are {Mathf.Abs(scene - 19) * 100} light year away from home";
 
 }

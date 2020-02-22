@@ -23,6 +23,12 @@ TextureImporter:
   - first:
       213: -4747024648472404582
     second: Props-Jungle-Tile-Set_6
+  - first:
+      213: 646092121918553865
+    second: Props-Jungle-Tile-Set_7
+  - first:
+      213: 2536706094203997116
+    second: Props-Jungle-Tile-Set_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -228,6 +234,69 @@ TextureImporter:
       bones: []
       spriteID: a9d57c7ab3e2f1eb0800000000000000
       internalID: -4747024648472404582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Jungle-Tile-Set_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 32
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.21153846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6dc4253dc73d960800000000000000
+      internalID: 7625575841129092805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Jungle-Tile-Set_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 110
+        width: 16
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f322b9c5167f800800000000000000
+      internalID: 646092121918553865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Jungle-Tile-Set_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 110
+        width: 16
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb099ca0c0343320800000000000000
+      internalID: 2536706094203997116
       vertices: []
       indices: 
       edges: []

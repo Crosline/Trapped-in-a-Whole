@@ -55,5 +55,6 @@ public class GameLevel
         var obj = GameObject.FindGameObjectsWithTag("Shard");
         Debug.Log("Shards: " + obj.Length);
         LevelShards = obj.Length;
+        GameplayUI.Instance.ChangeLightYear(SceneID);
     }
 }
