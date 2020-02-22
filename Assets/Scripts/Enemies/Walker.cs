@@ -6,28 +6,22 @@ using System.Collections;
 public class Walker : Enemy
 {
     [SerializeField] private float _timeToWaitOnEdge;
-    [SerializeField] private float _spottedWaitTime;
-    [SerializeField] private float _spotDistance;
     [SerializeField] private float _dashSpeed;
     [SerializeField] private float _dashTime;
     [SerializeField] private float _dashRestoreTime;
  
-    [SerializeField] private bool _isMovingRight = true;
     [SerializeField] private Transform _rayPosition;
     [SerializeField] private bool isDashingAvaible;
 
     private bool _isWaiting = false;
     private bool _isDashing = false;
 
-    public override void Move()
+    protected override void Move()
     {
         RaycastHit2D raycast = Physics2D.Raycast(_rayPosition.position, Vector3.down, 0.1f);
 
         if (raycast.collider != null)
-            if (_isMovingRight)
-                transform.position += new Vector3(_speed * Time.fixedDeltaTime, 0);
-            else
-                transform.position -= new Vector3(_speed * Time.fixedDeltaTime, 0);
+            base.Move();
         else
             StartCoroutine(WaitOnEdge());          
     }
@@ -43,18 +37,7 @@ public class Walker : Enemy
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawLine(new Vector2(transform.position.x, transform.position.y), transform.position+ (float)((_isMovingRight) ? -1 : 1) * Vector3.left * _spotDistance);
-    }
-
-    private bool CheckForPlayer()
-    {
-        RaycastHit2D raycast = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), (float)((_isMovingRight)?-1:1) * Vector3.left, _spotDistance);
-        if (raycast.collider != null && raycast.collider.gameObject.tag == "Player")
-        {
-            Debug.Log("PLAYER DETECTED!!!");
-            return true;
-        }
-        return false;
+        Gizmos.DrawLine(new Vector2(transform.position.x + ((_isMovingRight)?0.75f:-0.75f), transform.position.y), transform.position+ (float)((_isMovingRight) ? -1 : 1) * Vector3.left * _spotDistance);
     }
 
     private IEnumerator SlimeDash()
@@ -88,15 +71,6 @@ public class Walker : Enemy
         yield return new WaitForSecondsRealtime(_dashRestoreTime);
         _animator.SetBool("isDashed", false);
         _isDashing = false;
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            Debug.Log("COLLIDED WITH PLAYER");
-            StartCoroutine(Player.Instance.Die());
-        }
     }
 
     private IEnumerator WaitOnEdge()

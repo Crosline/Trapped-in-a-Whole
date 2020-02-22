@@ -67,6 +67,8 @@
     <Compile Include="Assets\Clue.cs" />
     <Compile Include="Assets\DelayedTrigger.cs" />
     <Compile Include="Assets\FollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\Enemies\BatAI.cs" />
+    <Compile Include="Assets\Scripts\Enemies\CyclopAI.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemies\Walker.cs" />
     <Compile Include="Assets\Scripts\Level\GameLevel.cs" />
