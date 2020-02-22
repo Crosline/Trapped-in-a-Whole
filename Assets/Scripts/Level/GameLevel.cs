@@ -37,11 +37,6 @@ public class GameLevel
 
     public void LoadLevel() => SceneManager.LoadScene(SceneID);
 
-    public void GenerateLevelObject()
-    {
-
-    }
-
     public GameLevel(int SceneID)
     {
         this.SceneID = SceneID;

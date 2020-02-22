@@ -13,6 +13,8 @@ public class PortalManager : MonoBehaviour {
 
     public Transform[] p;
 
+    public bool isTutorial;
+
 
 
     GameObject portal1;
@@ -35,7 +37,8 @@ public class PortalManager : MonoBehaviour {
             Destroy(portal4);
             return;
         }
-        if (portal1.GetComponent<TutorialPortal>() != null) {
+
+        if (isTutorial) {
             portal1.transform.position = p[0].position;
             portal1.transform.rotation = p[0].rotation;
 
@@ -46,7 +49,6 @@ public class PortalManager : MonoBehaviour {
             portal4.transform.position = new Vector2(-10000, -10000);
             return;
         }
-
 
         clueSetup = GameObject.Find("CLUE").GetComponent<Clue>();
         PortalSetup();

@@ -59,7 +59,7 @@ public class Player : MonoBehaviour {
     private IEnumerator Spawn() {
         StartCoroutine(GameplayUI.Instance.FadeEffect(false));
         yield return new WaitUntil(Waiting);
-        //CurrentLevel.FindShards();
+        CurrentLevel.FindShards();
 
         Debug.Log("SPAWN!");
         bool Waiting() => GameplayUI.Instance.isFading;
@@ -174,7 +174,8 @@ public class Player : MonoBehaviour {
         StartCoroutine(GameplayUI.Instance.FadeEffect(true));
         yield return new WaitUntil(Waiting);
         yield return new WaitForSecondsRealtime(0.3f);
-        CurrentLevel.LoadLevel();
+        new GameLevel(CurrentLevel.SceneID);
+        //CurrentLevel.LoadLevel();
 
         bool Waiting() => GameplayUI.Instance.isFading;
     }

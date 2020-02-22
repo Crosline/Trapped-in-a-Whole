@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour {
 
@@ -10,6 +11,8 @@ public class Timer : MonoBehaviour {
     public GameObject TimerCanvas;
 
 
+    private bool timerOn;
+
     // Start is called before the first frame update
     void Awake() {
         DontDestroyOnLoad(TimerCanvas);
@@ -18,7 +21,9 @@ public class Timer : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        time += Time.deltaTime;
+        if (timerOn) {
+            time += Time.deltaTime;
+        }
         UpdateTime();
     }
 
@@ -32,5 +37,15 @@ public class Timer : MonoBehaviour {
         //tmPro.SetText(String.Format($"{}:{}:{}%02d:%02d:%02d", hour, minute, second));
 
     }
+
+
+    private void OnLevelWasLoaded(int level) {
+        if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 21) {
+            timerOn = false;
+        } else {
+            timerOn = true;
+        }
+    }
+
 
 }

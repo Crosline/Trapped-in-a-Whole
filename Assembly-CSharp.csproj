@@ -66,6 +66,7 @@
     <Compile Include="Assets\AnimatedTile.cs" />
     <Compile Include="Assets\Clue.cs" />
     <Compile Include="Assets\DelayedTrigger.cs" />
+    <Compile Include="Assets\EndGame.cs" />
     <Compile Include="Assets\FireDelayedTrigger.cs" />
     <Compile Include="Assets\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
@@ -88,11 +89,13 @@
     <Compile Include="Assets\Scripts\Settings\OptionsController.cs" />
     <Compile Include="Assets\Scripts\Settings\UserOptions.cs" />
     <Compile Include="Assets\Scripts\UI\GameplayUI.cs" />
+    <Compile Include="Assets\Story.cs" />
     <Compile Include="Assets\TEST - CROSLINE\PlayerCrosline.cs" />
     <Compile Include="Assets\TextScript.cs" />
     <Compile Include="Assets\Timer.cs" />
     <Compile Include="Assets\Trap.cs" />
     <Compile Include="Assets\TutorialPortal.cs" />
+    <Compile Include="Assets\WinGame.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TEST - CROSLINE\Resources\Player\Fall\ReadMe.txt" />

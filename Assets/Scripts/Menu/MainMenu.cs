@@ -6,7 +6,7 @@ public class MainMenu : MonoBehaviour {
     private bool mainMenu = true;
 
     public void PlayGame() {
-        new GameLevel(6);
+        new GameLevel(5);
     }
 
     public void PlayTutorial() {
@@ -22,5 +22,7 @@ public class MainMenu : MonoBehaviour {
         gameObject.SetActive(!mainMenu);
         mainMenu = !mainMenu;
     }
+
+
 
 }
