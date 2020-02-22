@@ -6,59 +6,57 @@ using System.Collections;
 public class Walker : Enemy
 {
     [SerializeField] private float _timeToWaitOnEdge;
-    [SerializeField] private float _spottedWaitTime;
-    [SerializeField] private float _spotDistance;
     [SerializeField] private float _dashSpeed;
     [SerializeField] private float _dashTime;
     [SerializeField] private float _dashRestoreTime;
  
-    [SerializeField] private bool _isMovingRight = true;
     [SerializeField] private Transform _rayPosition;
+    [SerializeField] private bool isDashingAvaible;
 
     private bool _isWaiting = false;
     private bool _isDashing = false;
 
-    public override void Move()
+    protected override void Move()
     {
         RaycastHit2D raycast = Physics2D.Raycast(_rayPosition.position, Vector3.down, 0.1f);
 
         if (raycast.collider != null)
-            if (_isMovingRight)
-                transform.position += new Vector3(_speed * Time.fixedDeltaTime, 0);
-            else
-                transform.position -= new Vector3(_speed * Time.fixedDeltaTime, 0);
+            base.Move();
         else
             StartCoroutine(WaitOnEdge());          
     }
 
     private void FixedUpdate()
     {
-        if (!_isWaiting)
+        if (!_isWaiting && !_isDashing)
             Move();
 
-        if (CheckForPlayer())
+        if (!_isDashing && CheckForPlayer() && isDashingAvaible)
             StartCoroutine(SlimeDash());
     }
 
     private void OnDrawGizmos()
     {
-        Gizmos.DrawLine(new Vector2(transform.position.x, transform.position.y), transform.position+Vector3.left * _spotDistance);
-    }
-
-    private bool CheckForPlayer()
-    {
-        RaycastHit2D raycast = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), Vector3.left, _spotDistance);
-        if (raycast.collider != null && raycast.collider.gameObject.tag == "Player")
-            return true;
-        return false;
+        Gizmos.DrawLine(new Vector2(transform.position.x + ((_isMovingRight)?0.75f:-0.75f), transform.position.y), transform.position+ (float)((_isMovingRight) ? -1 : 1) * Vector3.left * _spotDistance);
     }
 
     private IEnumerator SlimeDash()
     {
         _isDashing = true;
-        _animator.SetBool("isSpotted", true);
+        _animator.SetFloat("Speed", 0f);
+        _animator.SetTrigger("isSpotted");
+        
+        yield return new WaitForSecondsRealtime(_spottedWaitTime);
+        
+        _animator.SetFloat("Speed", 1f);
+        _animator.SetBool("isDashed", true);
+        _animator.ResetTrigger("isSpotted");
+
         yield return new WaitForFixedUpdate();
-        _animator.SetBool("isSpotted", false);
+
+        var k = -1;
+        if (_isMovingRight)
+            k = 1;
 
         for (float i = 0; i < _dashTime; i += Time.deltaTime)
         {
@@ -66,16 +64,14 @@ public class Walker : Enemy
             if (raycast.collider == null)
                 break;
 
-            transform.position += new Vector3((_isMovingRight) ? 1 : -1 * _dashSpeed * Time.fixedDeltaTime, 0);
+            transform.position += new Vector3(k * _dashSpeed * Time.fixedDeltaTime, 0);
             yield return new WaitForFixedUpdate();
         }
 
         yield return new WaitForSecondsRealtime(_dashRestoreTime);
         _animator.SetBool("isDashed", false);
-        _animator.SetBool("isSpotted", false);
         _isDashing = false;
     }
-
 
     private IEnumerator WaitOnEdge()
     {
