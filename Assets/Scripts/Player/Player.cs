@@ -90,23 +90,12 @@ public class Player : MonoBehaviour {
 
     }
 
-<<<<<<< HEAD
     private void Flip() {
 
         if (_horizontalMove > 0) {
             transform.localRotation = Quaternion.Euler(0, 0, 0);
         } else if (_horizontalMove < 0) {
             transform.localRotation = Quaternion.Euler(0, 180, 0);
-=======
-    private void Flip()
-    {
-        if (_horizontalMove > 0) 
-            transform.localScale = new Vector3(1, 1, 1);
-
-        else if (_horizontalMove < 0)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
->>>>>>> 694a57b04a29c7aa6ae86091c68467f88f75998d
         }
     }
 
