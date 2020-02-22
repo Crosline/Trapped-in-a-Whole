@@ -1190,6 +1190,26 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6130529928114811702, guid: 93121d735e479c24182b3aab51b9093d,
+        type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6130529928114811702, guid: 93121d735e479c24182b3aab51b9093d,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 3840
+      objectReference: {fileID: 0}
+    - target: {fileID: 6130529928114811702, guid: 93121d735e479c24182b3aab51b9093d,
+        type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 2160
+      objectReference: {fileID: 0}
+    - target: {fileID: 6130529928114811702, guid: 93121d735e479c24182b3aab51b9093d,
+        type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6130529929467957742, guid: 93121d735e479c24182b3aab51b9093d,
         type: 3}
       propertyPath: m_AnchorMax.x

@@ -14,6 +14,7 @@ public class ParallaxBackground : MonoBehaviour
     void Start()
     {
         //startY = transform.position.y;
+        cam = GameObject.FindGameObjectWithTag("MainCamera");
         startPos = transform.position.x;
         length = sprite.bounds.size.x;
     }

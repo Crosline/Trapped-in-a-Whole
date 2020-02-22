@@ -157,8 +157,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 667, y: -807}
-  m_SizeDelta: {x: 588.8, y: 304}
+  m_AnchoredPosition: {x: 474.2, y: -717}
+  m_SizeDelta: {x: 734.39, y: 304}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3741707
 MonoBehaviour:
@@ -1014,7 +1014,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -196, y: -804}
+  m_AnchoredPosition: {x: -377, y: -789}
   m_SizeDelta: {x: 465.1, y: 213.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &375844684
@@ -3630,7 +3630,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 299
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -4923,7 +4923,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -30, y: 0}
   m_SizeDelta: {x: 85.7, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1574681655
@@ -4951,7 +4951,7 @@ MonoBehaviour:
     m_BestFit: 1
     m_MinSize: 10
     m_MaxSize: 220
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -6248,7 +6248,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.3125, y: 1.1875001, z: 0}
   m_MaxChunkCount: 16

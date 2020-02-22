@@ -112,9 +112,9 @@ public class OptionsController : MonoBehaviour {
         music.value = user.musicVolume;
         effects.value = user.effectsVolume;
 
-        masterMixer.SetFloat("volume", user.masterVolume);
-        musicMixer.SetFloat("volume", user.musicVolume);
-        effectsMixer.SetFloat("volume", user.effectsVolume);
+        masterMixer.SetFloat("Volume", user.masterVolume);
+        musicMixer.SetFloat("Volume", user.musicVolume);
+        effectsMixer.SetFloat("Volume", user.effectsVolume);
 
     }
 
