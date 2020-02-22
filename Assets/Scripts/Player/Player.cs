@@ -87,7 +87,7 @@ public class Player : MonoBehaviour
         jumpedLastFrame = true;
         _isGrounded = false;
         _rgbd2D.AddForce(Vector3.up * _jumpPower / _rgbd2D.gravityScale * 100);
-        Debug.Log("JUMP");
+        //Debug.Log("JUMP");
     }
 
     private void PlayAnimations()
@@ -100,21 +100,25 @@ public class Player : MonoBehaviour
     {
 
         if (_horizontalMove > 0) {
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
-            Debug.Log(">0");
+            //transform.eulerAngles = new Vector3(0, 0, 0);
+            //Debug.Log(">0");
+            transform.localScale = new Vector3(1, 1, 1);
+            //transform.localRotation = Quaternion.Euler(0, 180, 0);
         }
 
         else if (_horizontalMove < 0)
         {
-            transform.localRotation = Quaternion.Euler(0, 180, 0);
-            Debug.Log("<0");
+            //transform.eulerAngles = new Vector3(0, 180, 0);
+            //transform.localRotation = Quaternion.Euler(0, 180, 0);
+            transform.localScale = new Vector3(-1, 1, 1);
+            //Debug.Log("<0");
         }
     }
 
     public void CheckInputs()
     {
         _horizontalMove = Input.GetAxis("Horizontal");
-        Debug.Log($"Horiz move: {_horizontalMove}");
+        //Debug.Log($"Horiz move: {_horizontalMove}");
 
         if (Input.GetButtonDown("Jump") && _isJumped)
         {
