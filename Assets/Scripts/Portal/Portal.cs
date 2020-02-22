@@ -61,10 +61,10 @@ public class Portal : MonoBehaviour {
                 newWorld = Random.Range(SceneManager.GetActiveScene().buildIndex - lightYearChange + 1, SceneManager.GetActiveScene().buildIndex);
             }
 
-            if (newWorld >= 19) {
+            if (newWorld >= 21) {
                 newWorld = SceneManager.GetActiveScene().buildIndex + 1;
                 break;
-            } else if (newWorld <= 10) {
+            } else if (newWorld <= 8) {
                 newWorld = SceneManager.GetActiveScene().buildIndex - 1;
                 break;
             }

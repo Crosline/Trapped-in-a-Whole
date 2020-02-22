@@ -103,7 +103,7 @@ MonoBehaviour:
   _airMovingSpeed: 10
   _jetpackThrust: 1
   _jetpackCapacity: 1
-  _jetPackRestoringSpeed: 0.009
+  _jetPackRestoringSpeed: 0.007
   _jetpackPower: 6.5
   _jumpPower: 18
   _dashSpeed: 10
