@@ -38,6 +38,12 @@ public class PortalManager : MonoBehaviour {
         if (portal1.GetComponent<TutorialPortal>() != null) {
             portal1.transform.position = p[0].position;
             portal1.transform.rotation = p[0].rotation;
+
+            portal2.transform.position = p[1].position;
+            portal2.transform.rotation = p[1].rotation;
+
+            portal3.transform.position = new Vector2(-10000, -10000);
+            portal4.transform.position = new Vector2(-10000, -10000);
             return;
         }
 
