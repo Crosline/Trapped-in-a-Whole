@@ -44,7 +44,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.12179603, g: 0.13656174, b: 0.16037738, a: 0}
+  m_BackGroundColor: {r: 0.25, g: 0.5500001, b: 1, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -62,7 +62,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -113,5 +113,5 @@ MonoBehaviour:
   shader: {fileID: 4800000, guid: f1e1d0f0d12e8f541ac298f6ba8388ce, type: 3}
   maskValue: 0
   maskColor: {r: 0, g: 0, b: 0, a: 1}
-  maskTexture: {fileID: 2800000, guid: 1be2a5f03f0e7d54ab812de4ec53908c, type: 3}
+  maskTexture: {fileID: 2800000, guid: 45ebb0bdc0ecfe44dbd034ee7370d465, type: 3}
   maskInvert: 0

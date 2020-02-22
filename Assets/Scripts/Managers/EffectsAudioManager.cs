@@ -5,9 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-public class PlayerAudio : MonoBehaviour
+public class EffectsAudioManager
 {
 
+
+    [SerializeField] private AudioClip PortalAvaibleSound;
+    [SerializeField] private AudioClip JumpEffect;
 
 
 }
