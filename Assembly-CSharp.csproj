@@ -66,11 +66,8 @@
     <Compile Include="Assets\AnimatedTile.cs" />
     <Compile Include="Assets\Clue.cs" />
     <Compile Include="Assets\DelayedTrigger.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\EndGame.cs" />
     <Compile Include="Assets\FireDelayedTrigger.cs" />
-=======
->>>>>>> f6e4eb963503eb750336728e5805ce195971a564
     <Compile Include="Assets\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Enemies\BatAI.cs" />
     <Compile Include="Assets\Scripts\Enemies\CyclopAI.cs" />

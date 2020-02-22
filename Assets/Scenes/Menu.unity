@@ -4083,6 +4083,7 @@ MonoBehaviour:
   p:
   - {fileID: 778120606}
   - {fileID: 1001681175}
+  isTutorial: 0
 --- !u!4 &1352637511
 Transform:
   m_ObjectHideFlags: 0
@@ -5032,6 +5033,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 913491189454274509, guid: 02540dfaf6b306c41b6c1fec42858169,
+        type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.12304201
+      objectReference: {fileID: 0}
+    - target: {fileID: 913491189454274509, guid: 02540dfaf6b306c41b6c1fec42858169,
+        type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.2059007
+      objectReference: {fileID: 0}
+    - target: {fileID: 913491189454274509, guid: 02540dfaf6b306c41b6c1fec42858169,
+        type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.3301887
       objectReference: {fileID: 0}
     - target: {fileID: 4435861000228836222, guid: 02540dfaf6b306c41b6c1fec42858169,
         type: 3}

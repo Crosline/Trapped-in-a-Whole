@@ -7022,16 +7022,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3478371951108537056, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3478371951108537056, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: m_Simulated
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3478371951108537059, guid: 799284d785495804e9b901c0b4a2672d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7091,71 +7081,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bat
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _speed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _spottedWaitTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _spotDistance
-      value: 3.23
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _dashSpeed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _dashTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _dashRestoreTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _timeToWait
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: isDashingAvaible
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _moveDistance
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _isMoving
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _isMovingRight
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _moveLenght
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7243212555909038308, guid: 799284d785495804e9b901c0b4a2672d,
-        type: 3}
-      propertyPath: _moveType
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 799284d785495804e9b901c0b4a2672d, type: 3}
