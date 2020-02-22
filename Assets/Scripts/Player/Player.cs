@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
     public static Player Instance;
 
     private Rigidbody2D _rgbd2D;
@@ -13,9 +14,11 @@ public class Player : MonoBehaviour {
     [SerializeField] private float _movingSpeed;
     [SerializeField] private float _airMovingSpeed;
 
-    public float JetpackThrust {
+    public float JetpackThrust
+    {
         get => _jetpackThrust;
-        set {
+        set
+        {
             _jetpackThrust = (value >= _jetpackCapacity) ? _jetpackCapacity : value;
             GameplayUI.Instance.ChangeThrustSliderValue(value);
         }
@@ -43,7 +46,8 @@ public class Player : MonoBehaviour {
     private float _horizontalMove;
     private bool jumpedLastFrame;
 
-    private void Awake() {
+    private void Awake()
+    {
         Instance = this;
         _animator = GetComponent<Animator>();
         _rgbd2D = GetComponent<Rigidbody2D>();
@@ -52,11 +56,13 @@ public class Player : MonoBehaviour {
 
     }
 
-    private void Start() {
+    private void Start()
+    {
         StartCoroutine(Spawn());
     }
 
-    private IEnumerator Spawn() {
+    private IEnumerator Spawn()
+    {
         StartCoroutine(GameplayUI.Instance.FadeEffect(false));
         yield return new WaitUntil(Waiting);
         CurrentLevel.FindShards();
@@ -65,18 +71,21 @@ public class Player : MonoBehaviour {
         bool Waiting() => GameplayUI.Instance.isFading;
     }
 
-    private void FixedUpdate() {
+    private void FixedUpdate()
+    {
         Move();
     }
 
 
-    private void Update() {
+    private void Update()
+    {
         GroundCheck();
         CheckInputs();
         Flip();
         PlayAnimations();
     }
-    private void Jump() {
+    private void Jump()
+    {
         _animator.SetBool("Jump", true);
         _isJumped = true;
         jumpedLastFrame = true;
@@ -85,24 +94,31 @@ public class Player : MonoBehaviour {
         //Debug.Log("JUMP");
     }
 
-    private void PlayAnimations() {
+    private void PlayAnimations()
+    {
         _animator.SetBool("Fall", _rgbd2D.velocity.y < -1);
 
     }
 
-    private void Flip() {
+    private void Flip()
+    {
 
-        if (_horizontalMove > 0) {
+        if (_horizontalMove > 0)
+        {
             transform.localRotation = Quaternion.Euler(0, 0, 0);
-        } else if (_horizontalMove < 0) {
+        }
+        else if (_horizontalMove < 0)
+        {
             transform.localRotation = Quaternion.Euler(0, 180, 0);
         }
     }
 
-    public void CheckInputs() {
+    public void CheckInputs()
+    {
         _horizontalMove = Input.GetAxis("Horizontal");
 
-        if (Input.GetButtonDown("Jump") && _isJumped) {
+        if (Input.GetButtonDown("Jump") && _isJumped)
+        {
             _animator.SetBool("Jump", false);
             _isJumped = false;
         }
@@ -116,13 +132,13 @@ public class Player : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.V) && !_isDashing)
             StartCoroutine(Dash(Input.GetAxisRaw("Horizontal")));
 
-
         if (!Input.GetButton("Jump"))
             JetpackThrust += _jetPackRestoringSpeed;
 
     }
 
-    private void Move() {
+    private void Move()
+    {
         _rgbd2D.velocity = new Vector2(_movingSpeed * _horizontalMove, _rgbd2D.velocity.y);
 
         if (Mathf.Abs(_horizontalMove) >= 0.1f)
@@ -131,10 +147,12 @@ public class Player : MonoBehaviour {
             _animator.SetFloat("Speed", 0);
     }
 
-    private void UseThrust() {
+    private void UseThrust()
+    {
         _animator.SetBool("Thrust", true);
         _isGrounded = false;
-        if (_jetpackThrust <= 0) {
+        if (_jetpackThrust <= 0)
+        {
             _animator.SetBool("Thrust", false);
             _jetpackThrust = 0;
             return;
@@ -144,8 +162,10 @@ public class Player : MonoBehaviour {
         _particleSystem.Play();
     }
 
-    private void GroundCheck() {
-        if (jumpedLastFrame) {
+    private void GroundCheck()
+    {
+        if (jumpedLastFrame)
+        {
             jumpedLastFrame = false;
             return;
         }
@@ -153,7 +173,8 @@ public class Player : MonoBehaviour {
         _isGrounded = Physics2D.OverlapArea(new Vector2(transform.position.x - _collider.size.x / 2 + 0.05f, transform.position.y - _collider.size.y / 2 + 0.01f),
             new Vector2(transform.position.x + _collider.size.x / 2 - 0.05f, transform.position.y - _collider.size.y / 2 - 0.05f), layer);
 
-        if (!_isGrounded) {
+        if (!_isGrounded)
+        {
             _animator.SetBool("Ground", false);
             return;
         }
@@ -166,7 +187,8 @@ public class Player : MonoBehaviour {
         //JetpackThrust += _jetPackRestoringSpeed;
     }
 
-    public IEnumerator Die() {
+    public IEnumerator Die()
+    {
         Debug.Log("Dead method");
         _animator.SetBool("Death", true);
 
@@ -180,7 +202,8 @@ public class Player : MonoBehaviour {
         bool Waiting() => GameplayUI.Instance.isFading;
     }
 
-    private IEnumerator Dash(float direction) {
+    private IEnumerator Dash(float direction)
+    {
 
         if (direction == 0)
             yield break;
@@ -193,7 +216,8 @@ public class Player : MonoBehaviour {
 
         JetpackThrust -= _jetpackCapacity * 0.6f;
 
-        for (float i = 0; i < _dashDuration; i++) {
+        for (float i = 0; i < _dashDuration; i++)
+        {
             _rgbd2D.position += new Vector2(direction, 0) * _dashSpeed * Time.deltaTime;
             yield return new WaitForFixedUpdate();
         }

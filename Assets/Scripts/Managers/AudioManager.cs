@@ -1,17 +1,13 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-
-public class AudioManager : MonoBehaviour
+public static class AudioManager
 {
-    public static AudioManager Instance;
+     
 
-    [SerializeField] private AudioSource _musicSource;
-    [SerializeField] private AudioSource _effectSource;
 
-    [SerializeField] private AudioClip mainSong;
 
-    private void Awake()
-    {
-        Instance = this;
-    }
+
+
 }
