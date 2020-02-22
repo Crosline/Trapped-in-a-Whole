@@ -67,7 +67,7 @@
     <Compile Include="Assets\Clue.cs" />
     <Compile Include="Assets\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Enemies\LRWalker.cs" />
+    <Compile Include="Assets\Scripts\Enemies\Walker.cs" />
     <Compile Include="Assets\Scripts\Level\GameLevel.cs" />
     <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Managers\DataManger.cs" />
@@ -714,14 +714,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.2D.PixelPerfect.Samples.Editor.csproj">
-      <Project>{D395971C-D8B4-ED6E-77FC-3E726752F1A7}</Project>
-      <Name>Unity.2D.PixelPerfect.Samples.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.PixelPerfect.Samples.csproj">
-      <Project>{2D280D2A-F484-E3A6-6CE3-B05516AC386C}</Project>
-      <Name>Unity.2D.PixelPerfect.Samples</Name>
-    </ProjectReference>
     <ProjectReference Include="AstarPathfindingProject.csproj">
       <Project>{B3E9AE15-FE4C-7A41-8ABF-2B8E5FB4DDDB}</Project>
       <Name>AstarPathfindingProject</Name>
@@ -733,6 +725,14 @@
     <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
       <Project>{10653481-E399-CE14-36A2-571E09957AEF}</Project>
       <Name>AstarPathfindingProjectEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.Samples.Editor.csproj">
+      <Project>{D395971C-D8B4-ED6E-77FC-3E726752F1A7}</Project>
+      <Name>Unity.2D.PixelPerfect.Samples.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.2D.PixelPerfect.Samples.csproj">
+      <Project>{2D280D2A-F484-E3A6-6CE3-B05516AC386C}</Project>
+      <Name>Unity.2D.PixelPerfect.Samples</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

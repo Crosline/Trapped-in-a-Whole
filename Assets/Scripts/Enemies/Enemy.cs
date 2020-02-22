@@ -3,13 +3,15 @@
 public abstract class Enemy : MonoBehaviour
 {
     [SerializeField] protected float _speed;
-    [SerializeField] protected Rigidbody2D _rb2d;
-    [SerializeField] protected Collider2D collider;
-    
+    protected Rigidbody2D _rb2d;
+    protected Collider2D collider;
+    protected Animator _animator;
+
     public abstract void Move();
 
     protected void Awake()
     {
+        _animator = GetComponent<Animator>();
         collider = GetComponent<Collider2D>();
         _rb2d = GetComponent<Rigidbody2D>();
     }

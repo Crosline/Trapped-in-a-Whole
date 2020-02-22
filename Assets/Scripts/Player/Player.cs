@@ -66,7 +66,7 @@ public class Player : MonoBehaviour
     {
         StartCoroutine(GameplayUI.Instance.FadeEffect(false));
         yield return new WaitUntil(Waiting);
-        CurrentLevel.FindShards();
+        //CurrentLevel.FindShards();
 
         Debug.Log("SPAWN!");
         bool Waiting() => GameplayUI.Instance.isFading;
@@ -102,20 +102,18 @@ public class Player : MonoBehaviour
         if (_horizontalMove > 0)
         {
             transform.localRotation = Quaternion.Euler(0, 0, 0);
-            Debug.Log(">0");
         }
 
         else if (_horizontalMove < 0)
         {
             transform.localRotation = Quaternion.Euler(0, 180, 0);
-            Debug.Log("<0");
         }
     }
 
     public void CheckInputs()
     {
         _horizontalMove = Input.GetAxis("Horizontal");
-        Debug.Log($"Horiz move: {_horizontalMove}");
+      //  Debug.Log($"Horiz move: {_horizontalMove}");
 
         if (Input.GetButtonDown("Jump") && _isJumped)
         {
