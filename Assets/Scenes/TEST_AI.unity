@@ -341,7 +341,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &135888221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,11 +358,12 @@ MonoBehaviour:
   _timeToWaitOnEdge: 2
   _spottedWaitTime: 1
   _spotDistance: 1.98
-  _dashSpeed: 3
-  _dashTime: 0
-  _dashRestoreTime: 0
+  _dashSpeed: 1
+  _dashTime: 2
+  _dashRestoreTime: 1
   _isMovingRight: 0
   _rayPosition: {fileID: 1580466402}
+  isDashingAvaible: 1
 --- !u!212 &135888222
 SpriteRenderer:
   m_ObjectHideFlags: 0
