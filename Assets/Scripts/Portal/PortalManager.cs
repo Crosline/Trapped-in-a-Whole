@@ -27,16 +27,22 @@ public class PortalManager : MonoBehaviour {
         portal2 = GameObject.Find("Portal2");
         portal3 = GameObject.Find("Portal3");
         portal4 = GameObject.Find("Portal4");
-        clueSetup = GameObject.Find("CLUE").GetComponent<Clue>();
 
         if (SceneManager.GetActiveScene().buildIndex < 1 || SceneManager.GetActiveScene().buildIndex > 20) {
             Destroy(portal1);
             Destroy(portal2);
             Destroy(portal3);
             Destroy(portal4);
-        }
-        if (portal1.GetComponent<TutorialPortal>() != null)
             return;
+        }
+        if (portal1.GetComponent<TutorialPortal>() != null) {
+            portal1.transform.position = p[0].position;
+            portal1.transform.rotation = p[0].rotation;
+            return;
+        }
+
+
+        clueSetup = GameObject.Find("CLUE").GetComponent<Clue>();
         PortalSetup();
 
     }

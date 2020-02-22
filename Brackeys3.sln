@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{7FB1B3BA-46C4-BB3C-9562-D7F89580B3A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Samples", "Unity.2D.PixelPerfect.Samples.csproj", "{2D280D2A-F484-E3A6-6CE3-B05516AC386C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProject", "AstarPathfindingProject.csproj", "{B3E9AE15-FE4C-7A41-8ABF-2B8E5FB4DDDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Samples.Editor", "Unity.2D.PixelPerfect.Samples.Editor.csproj", "{D395971C-D8B4-ED6E-77FC-3E726752F1A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Samples", "Unity.2D.PixelPerfect.Samples.csproj", "{2D280D2A-F484-E3A6-6CE3-B05516AC386C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AstarPathfindingProjectEditor", "AstarPathfindingProjectEditor.csproj", "{10653481-E399-CE14-36A2-571E09957AEF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PackageToolsEditor", "PackageToolsEditor.csproj", "{094400FB-7049-7667-D3F9-A4F5C43E1343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Samples.Editor", "Unity.2D.PixelPerfect.Samples.Editor.csproj", "{D395971C-D8B4-ED6E-77FC-3E726752F1A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,18 +23,14 @@ Global
 		{7FB1B3BA-46C4-BB3C-9562-D7F89580B3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB1B3BA-46C4-BB3C-9562-D7F89580B3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB1B3BA-46C4-BB3C-9562-D7F89580B3A2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2D280D2A-F484-E3A6-6CE3-B05516AC386C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D280D2A-F484-E3A6-6CE3-B05516AC386C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D280D2A-F484-E3A6-6CE3-B05516AC386C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D280D2A-F484-E3A6-6CE3-B05516AC386C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B3E9AE15-FE4C-7A41-8ABF-2B8E5FB4DDDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B3E9AE15-FE4C-7A41-8ABF-2B8E5FB4DDDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3E9AE15-FE4C-7A41-8ABF-2B8E5FB4DDDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3E9AE15-FE4C-7A41-8ABF-2B8E5FB4DDDB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D395971C-D8B4-ED6E-77FC-3E726752F1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D395971C-D8B4-ED6E-77FC-3E726752F1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D395971C-D8B4-ED6E-77FC-3E726752F1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D395971C-D8B4-ED6E-77FC-3E726752F1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D280D2A-F484-E3A6-6CE3-B05516AC386C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D280D2A-F484-E3A6-6CE3-B05516AC386C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D280D2A-F484-E3A6-6CE3-B05516AC386C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D280D2A-F484-E3A6-6CE3-B05516AC386C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{10653481-E399-CE14-36A2-571E09957AEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{10653481-E399-CE14-36A2-571E09957AEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10653481-E399-CE14-36A2-571E09957AEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -43,6 +39,10 @@ Global
 		{094400FB-7049-7667-D3F9-A4F5C43E1343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{094400FB-7049-7667-D3F9-A4F5C43E1343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{094400FB-7049-7667-D3F9-A4F5C43E1343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D395971C-D8B4-ED6E-77FC-3E726752F1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D395971C-D8B4-ED6E-77FC-3E726752F1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D395971C-D8B4-ED6E-77FC-3E726752F1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D395971C-D8B4-ED6E-77FC-3E726752F1A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
