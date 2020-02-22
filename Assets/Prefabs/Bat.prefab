@@ -102,7 +102,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -156,9 +156,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isMovingRight: 1
-  _speed: 0
-  _spottedWaitTime: 0
-  _spotDistance: 0
+  _speed: 2
+  _spottedWaitTime: 1
+  _spotDistance: 3.23
+  _dashSpeed: 3
+  _dashTime: 1
+  _dashRestoreTime: 1
+  _timeToWait: 1
+  isDashingAvaible: 1
+  _moveType: 1
+  _moveLenght: 0
+  _moveDistance: 2
+  _isWaiting: 0
+  _isDashing: 0
+  _isMoving: 0
 --- !u!1 &3478371951816001373
 GameObject:
   m_ObjectHideFlags: 0
