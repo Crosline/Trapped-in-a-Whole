@@ -132,7 +132,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.V) && !_isDashing)
             StartCoroutine(Dash(Input.GetAxisRaw("Horizontal")));
 
-
         if (!Input.GetButton("Jump"))
             JetpackThrust += _jetPackRestoringSpeed;
 
