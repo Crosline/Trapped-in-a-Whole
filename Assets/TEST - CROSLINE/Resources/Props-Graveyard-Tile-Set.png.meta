@@ -1,7 +1,40 @@
 fileFormatVersion: 2
 guid: 990ec8e6f0e90a84d98ae26fc632ae59
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1666022387233077604
+    second: Props-Graveyard-Tile-Set_0
+  - first:
+      213: 850390298378928397
+    second: Props-Graveyard-Tile-Set_1
+  - first:
+      213: 4726493563566306073
+    second: Props-Graveyard-Tile-Set_2
+  - first:
+      213: -3018101555504142020
+    second: Props-Graveyard-Tile-Set_3
+  - first:
+      213: -961004574878798136
+    second: Props-Graveyard-Tile-Set_4
+  - first:
+      213: 2180108684602059931
+    second: Props-Graveyard-Tile-Set_5
+  - first:
+      213: 6194178680090112467
+    second: Props-Graveyard-Tile-Set_6
+  - first:
+      213: -9121761959631594811
+    second: Props-Graveyard-Tile-Set_7
+  - first:
+      213: 6718254632686753532
+    second: Props-Graveyard-Tile-Set_8
+  - first:
+      213: -1283993008899502936
+    second: Props-Graveyard-Tile-Set_9
+  - first:
+      213: -99952187379625135
+    second: Props-Graveyard-Tile-Set_10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +73,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +96,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -72,7 +117,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Props-Graveyard-Tile-Set_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 109
+        width: 14
+        height: 13
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7692308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96cf1d377911e8e0800000000000000
+      internalID: -1666022387233077604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Graveyard-Tile-Set_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 109
+        width: 11
+        height: 9
+      alignment: 9
+      pivot: {x: 0.45454547, y: 1.1111112}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01805788713dcb00800000000000000
+      internalID: 850390298378928397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Graveyard-Tile-Set_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 109
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9133a81aad0e79140800000000000000
+      internalID: 4726493563566306073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Graveyard-Tile-Set_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c392f1830ac8d16d0800000000000000
+      internalID: -3018101555504142020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Graveyard-Tile-Set_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 77
+        width: 28
+        height: 14
+      alignment: 9
+      pivot: {x: 0.2857143, y: 0.71428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cee2d64e63d9a2f0800000000000000
+      internalID: -961004574878798136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Graveyard-Tile-Set_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 76
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c23754c4d414e10800000000000000
+      internalID: 2180108684602059931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Graveyard-Tile-Set_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 58
+        width: 20
+        height: 33
+      alignment: 9
+      pivot: {x: 0.4, y: 0.3030303}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1b11ef0b426f550800000000000000
+      internalID: 6194178680090112467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Graveyard-Tile-Set_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 76
+        width: 15
+        height: 19
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cadc7ea3ddf86180800000000000000
+      internalID: -9121761959631594811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Graveyard-Tile-Set_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 44
+        width: 14
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7368421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf69aeb5ef80c3d50800000000000000
+      internalID: 6718254632686753532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Graveyard-Tile-Set_9
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 44
+        width: 15
+        height: 19
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.7368421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acc57a49275e2ee0800000000000000
+      internalID: -1283993008899502936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props-Graveyard-Tile-Set_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 12
+        width: 18
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7368421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153d6b0e306ec9ef0800000000000000
+      internalID: -99952187379625135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

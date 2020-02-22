@@ -28,8 +28,8 @@ public class Timer : MonoBehaviour {
         float minute = (time % 3600) / 60;
         float second = time % 60;
 
-        //tmPro.SetText($"{(float)Math.Round(hour, 0)}:{(float)Math.Round(minute % 60, 0)}:{(float)Math.Round(seconds, 0)}");
-        tmPro.SetText(String.Format("%02d:%02d:%02d", hour, minute, second));
+        tmPro.SetText($"{(float)Math.Round(hour, 0)}:{(float)Math.Round(minute, 0)}:{(float)Math.Round(second, 0)}");
+        //tmPro.SetText(String.Format($"{}:{}:{}%02d:%02d:%02d", hour, minute, second));
 
     }
 
