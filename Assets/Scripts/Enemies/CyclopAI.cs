@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-public class CyclopAI
+public class CyclopAI : Enemy
 {
     [SerializeField] private Transform _rayPosition;
     [SerializeField] private float _timeToWaitOnEdge;
@@ -18,4 +18,3 @@ public class CyclopAI
 
 
 }
-
