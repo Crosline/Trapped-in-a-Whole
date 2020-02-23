@@ -30,7 +30,7 @@ public class PortalManager : MonoBehaviour {
         portal3 = GameObject.Find("Portal3");
         portal4 = GameObject.Find("Portal4");
 
-        if (SceneManager.GetActiveScene().buildIndex < 1 || SceneManager.GetActiveScene().buildIndex > 20) {
+        if (SceneManager.GetActiveScene().buildIndex < 2 || SceneManager.GetActiveScene().buildIndex > 22) {
             Destroy(portal1);
             Destroy(portal2);
             Destroy(portal3);
