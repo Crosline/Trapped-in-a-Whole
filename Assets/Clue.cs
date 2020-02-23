@@ -18,7 +18,6 @@ public class Clue : MonoBehaviour {
 
         ClueTexts();
         blin = portalManager.p.Length;
-
     }
 
 

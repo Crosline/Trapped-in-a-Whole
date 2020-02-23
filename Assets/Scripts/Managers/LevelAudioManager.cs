@@ -33,9 +33,9 @@ public class LevelAudioManager : MonoBehaviour
         if (turnOn)
         {
             GetMusic();
-            _musicSource.SetScheduledStartTime(LastPlayingTime);
             _musicSource.Play();
             _ambientSource.Play();
+            _musicSource.time = LastPlayingTime;
             for (float i = 0; i<1; i += SoundVolumeChangeSpeed)
             {
                 _ambientSource.volume = i;
