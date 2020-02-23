@@ -66,6 +66,7 @@ public class Player : MonoBehaviour
         StartCoroutine(GameplayUI.Instance.FadeEffect(false));
         yield return new WaitUntil(Waiting);
         CurrentLevel.FindShards();
+        StartCoroutine(LevelAudioManager.Instance.SoundFade(true));
 
         Debug.Log("SPAWN!");
         bool Waiting() => GameplayUI.Instance.isFading;

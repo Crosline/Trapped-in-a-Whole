@@ -21,7 +21,7 @@ public class LevelAudioManager : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
-    private void Start()
+    public void Start()
     {
         StartCoroutine(SoundFade(true));
     }
@@ -29,11 +29,13 @@ public class LevelAudioManager : MonoBehaviour
 
     public IEnumerator SoundFade(bool turnOn)
     {
+        Debug.Log("SOUND CHANGE");
         if (turnOn)
         {
             GetMusic();
             _musicSource.SetScheduledStartTime(LastPlayingTime);
             _musicSource.Play();
+            _ambientSource.Play();
             for (float i = 0; i<1; i += SoundVolumeChangeSpeed)
             {
                 _ambientSource.volume = i;
@@ -51,6 +53,8 @@ public class LevelAudioManager : MonoBehaviour
                 _musicSource.volume = i;
                 yield return new WaitForFixedUpdate();
             }
+            _musicSource.Stop();
+            _ambientSource.Stop();
         }
     }
 
