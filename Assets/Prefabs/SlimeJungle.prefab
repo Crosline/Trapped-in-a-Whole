@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 5425960688719048966}
   m_Layer: 0
   m_Name: SlimeJungle
-  m_TagString: Untagged
+  m_TagString: DefaultTile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 5425960688719048961}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.9, y: 2.28, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5425960689627319481}
   m_Father: {fileID: 0}
@@ -95,7 +95,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5425960688719048961}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -118,10 +118,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.027986526, y: -0.25116986}
+  m_Offset: {x: -0.027986526, y: -0.18564785}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -132,8 +132,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.69467735, y: 0.49766028}
-  m_EdgeRadius: 0
+  m_Size: {x: 0.3574292, y: 0.04301572}
+  m_EdgeRadius: 0.1
 --- !u!95 &5425960688719049019
 Animator:
   serializedVersion: 3
@@ -165,16 +165,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f394c973a4080e4bb94fb3d85a6ff08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _isMovingRight: 0
   _speed: 1
-  _timeToWaitOnEdge: 2
   _spottedWaitTime: 1
-  _spotDistance: 1.98
+  _spotDistance: 0.5
+  _timeToWaitOnEdge: 2
   _dashSpeed: 1
   _dashTime: 2
   _dashRestoreTime: 1
-  _isMovingRight: 0
   _rayPosition: {fileID: 5425960689627319481}
-  isDashingAvaible: 1
+  isDashingAvaible: 0
 --- !u!1 &5425960689627319482
 GameObject:
   m_ObjectHideFlags: 0

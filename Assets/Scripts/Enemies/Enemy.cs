@@ -57,4 +57,13 @@ public abstract class Enemy : MonoBehaviour
             StartCoroutine(Player.Instance.Die());
         }
     }
+
+    protected virtual void OnTriggerEnter2D(Collider2D collision) {
+        if (collision.gameObject.tag == "Player") {
+            StartCoroutine(Player.Instance.Die());
+            Debug.Log("OMAE WA MOU SHINDEIRU!");
+        }
+    }
+
+
 }

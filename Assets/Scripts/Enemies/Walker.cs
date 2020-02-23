@@ -20,7 +20,7 @@ public class Walker : Enemy
     {
         RaycastHit2D raycast = Physics2D.Raycast(_rayPosition.position, Vector3.down, 0.1f);
 
-        if (raycast.collider != null)
+        if (raycast.collider != null && !CheckForWall())
             base.Move();
         else
             StartCoroutine(WaitOnEdge());          
@@ -30,6 +30,7 @@ public class Walker : Enemy
     {
         if (!_isWaiting && !_isDashing)
             Move();
+
 
         if (!_isDashing && CheckForPlayer() && isDashingAvaible)
             StartCoroutine(SlimeDash());
@@ -83,4 +84,6 @@ public class Walker : Enemy
         _animator.SetFloat("Speed", 1);
         _isWaiting = false;
     }
+
+
 }

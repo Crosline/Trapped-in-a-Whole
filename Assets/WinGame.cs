@@ -20,10 +20,36 @@ public class WinGame : MonoBehaviour
 
     // Update is called once per frame
 
+<<<<<<< HEAD
+=======
+    void Update() {
+        if (Input.GetButtonDown("Jump")) {
+            StartCoroutine(AfterDialogue());
+        }
+    }
+
+
+>>>>>>> 50d68fe6b102e45bd7a999f8218d77c7851a7c75
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Player") {
             StartCoroutine(Dialogue());
         }
+    }
+
+    IEnumerator AfterDialogue() {
+
+        playerObject.GetComponent<Rigidbody2D>().gravityScale = 0;
+        playerObject.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+
+        playerObject.GetComponent<Animator>().SetFloat("Speed", 1);
+
+        playerObject.GetComponent<Rigidbody2D>().velocity = new Vector2(4 * 1, 0);
+
+        gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(4 * 1, 0);
+        gameObject.transform.localRotation = Quaternion.Euler(0, 0, 0);
+        gameObject.GetComponent<Animator>().SetFloat("Speed", 1);
+
+        yield break;
     }
 
     IEnumerator Dialogue() {
