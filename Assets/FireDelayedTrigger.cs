@@ -15,20 +15,20 @@ public class FireDelayedTrigger : MonoBehaviour {
     public Animator anime;
     public Animator anime2;
 
+    public bool isTriggered;
+
     void Update() {
 
         if (Physics2D.OverlapCircle(playerCheck.position, checkRadius, whatIsPlayer)) {
             ex.enabled = true;
             StartCoroutine(Trigger());
         }
-        if (Physics2D.OverlapCircle(playerCheck.position, checkRadius - 0.2f, whatIsPlayer)) {
-            //anime.Play("Trigger");
-
-        }
     }
 
     public IEnumerator Trigger() {
-        Debug.Log("ANAN");
+        if (isTriggered)
+            yield break;
+        isTriggered = true;
         yield return new WaitForSeconds(waitForSec);
         anime.Play("Trigger");
         anime2.Play("Trigger");
@@ -36,7 +36,7 @@ public class FireDelayedTrigger : MonoBehaviour {
         yield return new WaitForSeconds(waitForSec);
         ex.enabled = false;
 
-
+        isTriggered = false;
         yield break;
     }
 

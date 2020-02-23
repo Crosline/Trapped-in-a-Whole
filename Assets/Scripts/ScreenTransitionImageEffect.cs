@@ -35,6 +35,7 @@ public class ScreenTransitionImageEffect : MonoBehaviour
         }
     }
 
+    [System.Obsolete]
     void Start()
     {
         // Disable if we don't support image effects
