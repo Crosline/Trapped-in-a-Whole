@@ -1,8 +1,5 @@
 ﻿using System.Collections;
-<<<<<<< HEAD
 using Unity;
-=======
->>>>>>> a3086588f9578b3e3fdc206dac02efbd09a60fc8
 using UnityEngine;
 
 public class WinGame : MonoBehaviour {
