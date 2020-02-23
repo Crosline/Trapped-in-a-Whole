@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/START_UP.unity
+    guid: ff452feb1a024284ea53eaa94593fcb8
+  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 18aa978c8005ac64795b30a387f8b13d
   - enabled: 1
@@ -69,8 +72,8 @@ EditorBuildSettings:
     path: Assets/Scenes/WIN/WIN.unity
     guid: 66130693dd4638a47858988dbeeb1369
   - enabled: 0
-    path: Assets/Scenes/Test.unity
-    guid: 62b4230489573b1488869112917f8ec1
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/TEST - CROSLINE/Test-Crosline.unity
     guid: 192bc710e9bcaaa42815a0acc6dc8330

@@ -17,6 +17,7 @@ public class LevelAudioManager : MonoBehaviour
 
     private void Awake()
     {
+
         Instance = this;
         DontDestroyOnLoad(this.gameObject);
     }
