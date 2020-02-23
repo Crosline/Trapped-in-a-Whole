@@ -2,6 +2,9 @@
 
 public class CrystalShard : MonoBehaviour, IPickUp {
 
+    [SerializeField]  private AudioClip clip;
+    private AudioSource source;
+
     private Collider2D _collider2D;
     private Animator _animator;
     private bool isPickedUp = false;
@@ -9,6 +12,8 @@ public class CrystalShard : MonoBehaviour, IPickUp {
 
     private void Awake()
     {
+        source = GetComponent<AudioSource>();
+        source.clip = clip;
         _collider2D = GetComponent<Collider2D>();
         _animator = GetComponent<Animator>();
     }
@@ -39,7 +44,9 @@ public class CrystalShard : MonoBehaviour, IPickUp {
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player" && !isPickedUp)
+        {
             PickUp();
-
+            source.Play();
+        }
     }
 }

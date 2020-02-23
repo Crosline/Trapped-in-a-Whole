@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class FireDelayedTrigger : MonoBehaviour {
 
 
+    private AudioSource source;
+    [SerializeField] private AudioClip clip;
+
     public Transform playerCheck;
     public float checkRadius;
     public MeshRenderer ex;
@@ -16,6 +19,11 @@ public class FireDelayedTrigger : MonoBehaviour {
     public Animator anime2;
 
     public bool isTriggered;
+
+    private void Awake()
+    {
+        source = GetComponent<AudioSource>();
+    }
 
     void Update() {
 
@@ -32,6 +40,9 @@ public class FireDelayedTrigger : MonoBehaviour {
         yield return new WaitForSeconds(waitForSec);
         anime.Play("Trigger");
         anime2.Play("Trigger");
+
+        source.clip = clip;
+        source.Play();
 
         yield return new WaitForSeconds(waitForSec);
         ex.enabled = false;

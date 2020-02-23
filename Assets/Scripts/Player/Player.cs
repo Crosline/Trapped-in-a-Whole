@@ -9,6 +9,10 @@ public class Player : MonoBehaviour
     private BoxCollider2D _collider;
     private Animator _animator;
 
+    [SerializeField] private AudioClip ThrustClip;
+    [SerializeField] private AudioClip Steps;
+    private AudioSource source;
+
     public static GameLevel CurrentLevel;
 
     [SerializeField] private float _movingSpeed;
@@ -50,6 +54,7 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        source = GetComponent<AudioSource>();
         _animator = GetComponent<Animator>();
         _rgbd2D = GetComponent<Rigidbody2D>();
         _particleSystem = GetComponent<ParticleSystem>();
@@ -161,7 +166,7 @@ public class Player : MonoBehaviour
             _animator.SetBool("Thrust", false);
             _jetpackThrust = 0;
             return;
-        }
+        }     
         JetpackThrust -= Time.deltaTime;
         _rgbd2D.AddForce(Vector3.up * Time.deltaTime * _jetpackPower / _rgbd2D.gravityScale * 1000);
         _particleSystem.Play();

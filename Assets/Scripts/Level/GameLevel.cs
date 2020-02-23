@@ -29,6 +29,7 @@ public class GameLevel
             if (_shardsCollected == LevelShards)
             {
                 PortalManager.Instance.ActivatePortals();
+                SFXAudio.Instance.PlayPortal();
                 // Activate Portal
             }
         }
