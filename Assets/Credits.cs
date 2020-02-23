@@ -7,7 +7,14 @@ public class Credits : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        new GameLevel(0);
+        StartCoroutine(StartAgain());
+    }
+
+    IEnumerator StartAgain() {
+        yield return new WaitForSeconds(15f);
+
+        new GameLevel(1);
+        yield break;
     }
 
 }

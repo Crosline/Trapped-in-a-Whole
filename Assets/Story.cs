@@ -10,7 +10,7 @@ public class Story : MonoBehaviour {
     void Update() {
 
         if (Input.GetButtonDown("Cancel")) {
-            new GameLevel(6);
+            new GameLevel(7);
         }
 
 
@@ -58,7 +58,7 @@ public class Story : MonoBehaviour {
 
 
 
-        new GameLevel(6);
+        new GameLevel(7);
         yield break;
 
 
