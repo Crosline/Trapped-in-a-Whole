@@ -20,7 +20,7 @@ public class EndGame : MonoBehaviour
         StartCoroutine(GameplayUI.Instance.FadeEffect(true));
         yield return new WaitUntil(Waiting);
         yield return new WaitForSecondsRealtime(0.3f);
-        new GameLevel(0);
+        new GameLevel(1);
 
 
         bool Waiting() => GameplayUI.Instance.isFading;

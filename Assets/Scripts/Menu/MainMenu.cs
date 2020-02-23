@@ -13,6 +13,10 @@ public class MainMenu : MonoBehaviour {
         new GameLevel(2);
     }
 
+    public void PlayCredits() {
+        new GameLevel(22);
+    }
+
     public void KillTheGame() {
         Application.Quit();
     }
