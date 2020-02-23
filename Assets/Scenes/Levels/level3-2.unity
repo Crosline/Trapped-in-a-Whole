@@ -385,7 +385,7 @@ Transform:
   - {fileID: 1104957486}
   - {fileID: 1044265132}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &220454959
 PrefabInstance:
@@ -2151,7 +2151,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &997162192
 GameObject:
@@ -3278,8 +3278,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: CLUE
       objectReference: {fileID: 0}
+    - target: {fileID: 6203852930939490982, guid: bdf0d9f7ea6d4674fa0f9a111fe243f3,
+        type: 3}
+      propertyPath: portalManager
+      value: 
+      objectReference: {fileID: 1983802935}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdf0d9f7ea6d4674fa0f9a111fe243f3, type: 3}
+--- !u!114 &1435817132 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6203852930939490982, guid: bdf0d9f7ea6d4674fa0f9a111fe243f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1435817131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d58fe2fc3d87949a23a5e8a462805f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1440238075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19460,7 +19477,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f45f32ff3259b4b46905c99edcad653e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clueSetup: {fileID: 0}
+  clueSetup: {fileID: 1435817132}
   p:
   - {fileID: 997162193}
   - {fileID: 1792222906}
@@ -19483,7 +19500,7 @@ Transform:
   - {fileID: 757342725}
   - {fileID: 1484395487}
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2012117315
 PrefabInstance:
@@ -20568,7 +20585,7 @@ Transform:
   - {fileID: 4427330870516357352}
   - {fileID: 6848860110441916213}
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4427330870516357352
 Transform:

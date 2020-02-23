@@ -50,7 +50,7 @@ public class PortalManager : MonoBehaviour {
             return;
         }
 
-        clueSetup = GameObject.Find("CLUE").GetComponent<Clue>();
+        //clueSetup = GameObject.Find("CLUE").GetComponent<Clue>();
         PortalSetup();
 
     }

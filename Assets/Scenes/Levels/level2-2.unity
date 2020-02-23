@@ -1096,6 +1096,18 @@ PrefabInstance:
       objectReference: {fileID: 1635065520}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdf0d9f7ea6d4674fa0f9a111fe243f3, type: 3}
+--- !u!114 &1161831430 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6203852930939490982, guid: bdf0d9f7ea6d4674fa0f9a111fe243f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1161831429}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5d58fe2fc3d87949a23a5e8a462805f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1357009264
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,7 +2030,7 @@ Tilemap:
       - {fileID: -7317544745800861347, guid: 278bc99ef6c60e04a9af63e9d085f573, type: 3}
       - {fileID: 568302632436800406, guid: 278bc99ef6c60e04a9af63e9d085f573, type: 3}
       - {fileID: 623291756298466235, guid: 278bc99ef6c60e04a9af63e9d085f573, type: 3}
-      m_AnimationSpeed: 5.0000005
+      m_AnimationSpeed: 5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 1, y: -4, z: 0}
@@ -2431,7 +2443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f45f32ff3259b4b46905c99edcad653e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clueSetup: {fileID: 0}
+  clueSetup: {fileID: 1161831430}
   p:
   - {fileID: 1917895220}
   - {fileID: 96601595}
