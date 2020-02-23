@@ -93,6 +93,7 @@
     <Compile Include="Assets\Scripts\Portal\Portal.cs" />
     <Compile Include="Assets\Scripts\Portal\PortalManager.cs" />
     <Compile Include="Assets\Scripts\Portal\StartTheGame.cs" />
+    <Compile Include="Assets\Scripts\SFXAudio.cs" />
     <Compile Include="Assets\Scripts\ScreenTransitionImageEffect.cs" />
     <Compile Include="Assets\Scripts\Settings\GameSettings.cs" />
     <Compile Include="Assets\Scripts\Settings\OptionsController.cs" />
