@@ -66,11 +66,14 @@
     <Compile Include="Assets\AnimatedTile.cs" />
     <Compile Include="Assets\Clue.cs" />
     <Compile Include="Assets\Credits.cs" />
+    <Compile Include="Assets\Cyclops.cs" />
     <Compile Include="Assets\DelayedTrigger.cs" />
     <Compile Include="Assets\EndGame.cs" />
     <Compile Include="Assets\FireDelayedTrigger.cs" />
     <Compile Include="Assets\FollowPlayer.cs" />
     <Compile Include="Assets\KillingTrap.cs" />
+    <Compile Include="Assets\LoadMainMenu.cs" />
+    <Compile Include="Assets\Projectile.cs" />
     <Compile Include="Assets\ReversedTrap.cs" />
     <Compile Include="Assets\Scripts\Enemies\BatAI.cs" />
     <Compile Include="Assets\Scripts\Enemies\CyclopAI.cs" />
