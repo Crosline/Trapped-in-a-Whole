@@ -14,13 +14,15 @@ public class Clue : MonoBehaviour {
 
 
 
-    void Start() {
+    void Awake() {
 
         ClueTexts();
-        blin = portalManager.p.Length;
 
     }
 
+    void Start() {
+       blin = portalManager.p.Length;
+    }
 
 
 
