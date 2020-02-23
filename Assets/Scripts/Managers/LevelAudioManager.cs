@@ -9,8 +9,8 @@ public class LevelAudioManager : MonoBehaviour
     [SerializeField] public float LastPlayingTime;
     [SerializeField] public float SoundVolumeChangeSpeed;
 
-    [SerializeField] protected AudioSource _musicSource;
-    [SerializeField] protected AudioSource _ambientSource;
+    [SerializeField] public AudioSource _musicSource;
+    [SerializeField] public AudioSource _ambientSource;
     
     [SerializeField] private AudioClip[] _levelAmbients;
     [SerializeField] private AudioClip[] _levelMusic;
@@ -62,12 +62,12 @@ public class LevelAudioManager : MonoBehaviour
     private void GetMusic()
     {
         var lvl = SceneManager.GetActiveScene().buildIndex;
-        if (lvl < 12)
+        if (lvl <= 12)
         {
             _musicSource.clip = _levelMusic[0];
             _ambientSource.clip = _levelAmbients[0];
         }
-        else if (lvl >= 12 && lvl < 15)
+        else if (lvl > 12 && lvl <= 16)
         {
             _musicSource.clip = _levelMusic[1];
             _ambientSource.clip = _levelAmbients[1];

@@ -7,8 +7,6 @@ using UnityEngine;
 
 public class EffectsAudioManager
 {
-
-
     [SerializeField] private AudioClip PortalAvaibleSound;
     [SerializeField] private AudioClip JumpEffect;
 

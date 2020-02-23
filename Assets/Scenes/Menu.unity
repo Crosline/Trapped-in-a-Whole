@@ -1239,7 +1239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &543465963
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5473,7 +5473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1991827859
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6593,6 +6593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c31ddc2de49f4154aa943fd030a7449d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clip: {fileID: 0}
   layerMask:
     serializedVersion: 2
     m_Bits: 256
@@ -6608,6 +6609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c31ddc2de49f4154aa943fd030a7449d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clip: {fileID: 0}
   layerMask:
     serializedVersion: 2
     m_Bits: 256
@@ -6646,6 +6648,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae4b23f6d046fd4f9d42e89da3773f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ThrustClip: {fileID: 0}
+  Steps: {fileID: 0}
   _movingSpeed: 4
   _airMovingSpeed: 10
   _jetpackThrust: 1

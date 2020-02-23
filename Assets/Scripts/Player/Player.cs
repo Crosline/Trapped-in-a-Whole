@@ -205,6 +205,7 @@ public class Player : MonoBehaviour
         Debug.Log("Dead method");
         _animator.SetBool("Death", true);
         isDying = true;
+        LevelAudioManager.Instance.LastPlayingTime = LevelAudioManager.Instance._musicSource.time;
         yield return new WaitForSecondsRealtime(1f);
         StartCoroutine(GameplayUI.Instance.FadeEffect(true));
         yield return new WaitUntil(Waiting);
