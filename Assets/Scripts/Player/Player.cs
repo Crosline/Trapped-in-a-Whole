@@ -45,6 +45,7 @@ public class Player : MonoBehaviour
 
     private float _horizontalMove;
     private bool jumpedLastFrame;
+    private bool isDying = false;
 
     private void Awake()
     {
@@ -53,7 +54,6 @@ public class Player : MonoBehaviour
         _rgbd2D = GetComponent<Rigidbody2D>();
         _particleSystem = GetComponent<ParticleSystem>();
         _collider = GetComponent<BoxCollider2D>();
-
     }
 
     private void Start()
@@ -73,12 +73,16 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (isDying)
+            return;
         Move();
     }
 
 
     private void Update()
     {
+        if (isDying)
+            return;
         GroundCheck();
         CheckInputs();
         Flip();
@@ -129,7 +133,7 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && _isGrounded && !_isJumped)
             Jump();
 
-        if (Input.GetKeyDown(KeyCode.V) && !_isDashing)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && !_isDashing)
             StartCoroutine(Dash(Input.GetAxisRaw("Horizontal")));
 
         if (!Input.GetButton("Jump"))
@@ -189,9 +193,12 @@ public class Player : MonoBehaviour
 
     public IEnumerator Die()
     {
+        if (isDying)
+            yield break;
+
         Debug.Log("Dead method");
         _animator.SetBool("Death", true);
-
+        isDying = true;
         yield return new WaitForSecondsRealtime(1f);
         StartCoroutine(GameplayUI.Instance.FadeEffect(true));
         yield return new WaitUntil(Waiting);

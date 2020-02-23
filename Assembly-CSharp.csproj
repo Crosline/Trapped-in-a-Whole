@@ -74,10 +74,9 @@
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemies\Walker.cs" />
     <Compile Include="Assets\Scripts\Level\GameLevel.cs" />
-    <Compile Include="Assets\Scripts\Managers\AudioManager.cs" />
     <Compile Include="Assets\Scripts\Managers\DataManger.cs" />
+    <Compile Include="Assets\Scripts\Managers\EffectsAudioManager.cs" />
     <Compile Include="Assets\Scripts\Managers\LevelAudioManager.cs" />
-    <Compile Include="Assets\Scripts\Managers\PlayerAudio.cs" />
     <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Menu\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Menu\StartGame.cs" />

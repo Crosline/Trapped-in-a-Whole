@@ -20,6 +20,8 @@ public class WinGame : MonoBehaviour
 
     // Update is called once per frame
 
+<<<<<<< HEAD
+=======
     void Update() {
         if (Input.GetButtonDown("Jump")) {
             StartCoroutine(AfterDialogue());
@@ -27,6 +29,7 @@ public class WinGame : MonoBehaviour
     }
 
 
+>>>>>>> 50d68fe6b102e45bd7a999f8218d77c7851a7c75
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.gameObject.tag == "Player") {
             StartCoroutine(Dialogue());
