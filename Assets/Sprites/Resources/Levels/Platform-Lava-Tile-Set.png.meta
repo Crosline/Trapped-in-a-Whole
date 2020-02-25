@@ -1,0 +1,1264 @@
+fileFormatVersion: 2
+guid: 6a973ef83b20be844989e0b5d9ad7d40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8371794416991374697
+    second: Platform-Lava-Tile-Set_0
+  - first:
+      213: -9091948353344138528
+    second: Platform-Lava-Tile-Set_1
+  - first:
+      213: -9038329844586532906
+    second: Platform-Lava-Tile-Set_2
+  - first:
+      213: 5329442395202975208
+    second: Platform-Lava-Tile-Set_3
+  - first:
+      213: 8850954167332117232
+    second: Platform-Lava-Tile-Set_4
+  - first:
+      213: -3431680053798644039
+    second: Platform-Lava-Tile-Set_5
+  - first:
+      213: 6339532772650577977
+    second: Platform-Lava-Tile-Set_6
+  - first:
+      213: 8401344295190557233
+    second: Platform-Lava-Tile-Set_7
+  - first:
+      213: 3214172768737513647
+    second: Platform-Lava-Tile-Set_8
+  - first:
+      213: -2973596297169471073
+    second: Platform-Lava-Tile-Set_9
+  - first:
+      213: -5811432811345969589
+    second: Platform-Lava-Tile-Set_10
+  - first:
+      213: 3643031914000636270
+    second: Platform-Lava-Tile-Set_11
+  - first:
+      213: -2673097826417924034
+    second: Platform-Lava-Tile-Set_12
+  - first:
+      213: 1757057398229565192
+    second: Platform-Lava-Tile-Set_13
+  - first:
+      213: 474861353989257791
+    second: Platform-Lava-Tile-Set_14
+  - first:
+      213: 8751159372641592319
+    second: Platform-Lava-Tile-Set_15
+  - first:
+      213: 1010077345870941893
+    second: Platform-Lava-Tile-Set_16
+  - first:
+      213: -4975676069974864278
+    second: Platform-Lava-Tile-Set_17
+  - first:
+      213: -1745679291741967341
+    second: Platform-Lava-Tile-Set_18
+  - first:
+      213: 8440163174802182331
+    second: Platform-Lava-Tile-Set_19
+  - first:
+      213: -3651153574385409651
+    second: Platform-Lava-Tile-Set_20
+  - first:
+      213: -8239714454773002511
+    second: Platform-Lava-Tile-Set_21
+  - first:
+      213: -53397855734151280
+    second: Platform-Lava-Tile-Set_22
+  - first:
+      213: 2105767654167401954
+    second: Platform-Lava-Tile-Set_23
+  - first:
+      213: 2246464734842419440
+    second: Platform-Lava-Tile-Set_24
+  - first:
+      213: 1306332691934032809
+    second: Platform-Lava-Tile-Set_25
+  - first:
+      213: 5964743918942560932
+    second: Platform-Lava-Tile-Set_26
+  - first:
+      213: 699225912848382418
+    second: Platform-Lava-Tile-Set_27
+  - first:
+      213: 3908075553803324248
+    second: Platform-Lava-Tile-Set_28
+  - first:
+      213: 7334504902689906759
+    second: Platform-Lava-Tile-Set_29
+  - first:
+      213: 7531535912983762114
+    second: Platform-Lava-Tile-Set_30
+  - first:
+      213: -2829179520480212320
+    second: Platform-Lava-Tile-Set_31
+  - first:
+      213: 5030555541050844929
+    second: Platform-Lava-Tile-Set_32
+  - first:
+      213: 3186394206675292665
+    second: Platform-Lava-Tile-Set_33
+  - first:
+      213: 4681446229189340969
+    second: Platform-Lava-Tile-Set_34
+  - first:
+      213: -2842542790008939571
+    second: Platform-Lava-Tile-Set_35
+  - first:
+      213: 3714031266201684141
+    second: Platform-Lava-Tile-Set_36
+  - first:
+      213: 2816379821591921684
+    second: Platform-Lava-Tile-Set_37
+  - first:
+      213: 5431376522782767407
+    second: Platform-Lava-Tile-Set_38
+  - first:
+      213: 7007145541084394662
+    second: Platform-Lava-Tile-Set_0
+  - first:
+      213: -7314420326665416368
+    second: Platform-Lava-Tile-Set_1
+  - first:
+      213: 6838023340924285641
+    second: Platform-Lava-Tile-Set_2
+  - first:
+      213: 7221990046286715587
+    second: Platform-Lava-Tile-Set_3
+  - first:
+      213: 3682090672424187572
+    second: Platform-Lava-Tile-Set_4
+  - first:
+      213: 4780726709433502224
+    second: Platform-Lava-Tile-Set_5
+  - first:
+      213: 2567447948039204934
+    second: Platform-Lava-Tile-Set_6
+  - first:
+      213: -2546995037315479846
+    second: Platform-Lava-Tile-Set_7
+  - first:
+      213: -2293368517117947674
+    second: Platform-Lava-Tile-Set_8
+  - first:
+      213: -5088847953144771536
+    second: Platform-Lava-Tile-Set_9
+  - first:
+      213: 462433054340790241
+    second: Platform-Lava-Tile-Set_10
+  - first:
+      213: 7534980875915838069
+    second: Platform-Lava-Tile-Set_11
+  - first:
+      213: 1863313575321950445
+    second: Platform-Lava-Tile-Set_12
+  - first:
+      213: -1026181196247896785
+    second: Platform-Lava-Tile-Set_13
+  - first:
+      213: -8167008365341210478
+    second: Platform-Lava-Tile-Set_14
+  - first:
+      213: 2916858184242894349
+    second: Platform-Lava-Tile-Set_15
+  - first:
+      213: -3015545690485507088
+    second: Platform-Lava-Tile-Set_16
+  - first:
+      213: 2394835722525695503
+    second: Platform-Lava-Tile-Set_17
+  - first:
+      213: 4451754309061004566
+    second: Platform-Lava-Tile-Set_18
+  - first:
+      213: 6748797475784659139
+    second: Platform-Lava-Tile-Set_19
+  - first:
+      213: 8732720399281272173
+    second: Platform-Lava-Tile-Set_20
+  - first:
+      213: 5364151127360791623
+    second: Platform-Lava-Tile-Set_21
+  - first:
+      213: 1410490021150964934
+    second: Platform-Lava-Tile-Set_22
+  - first:
+      213: 6771246252760645526
+    second: Platform-Lava-Tile-Set_23
+  - first:
+      213: -6930416411924376213
+    second: Platform-Lava-Tile-Set_24
+  - first:
+      213: -5858157251181042867
+    second: Platform-Lava-Tile-Set_25
+  - first:
+      213: 1644782091001832825
+    second: Platform-Lava-Tile-Set_26
+  - first:
+      213: 8935018984302308650
+    second: Platform-Lava-Tile-Set_27
+  - first:
+      213: 2881965164173313552
+    second: Platform-Lava-Tile-Set_28
+  - first:
+      213: -3446997438162365271
+    second: Platform-Lava-Tile-Set_29
+  - first:
+      213: -7737785390016908398
+    second: Platform-Lava-Tile-Set_30
+  - first:
+      213: 7023228618836251520
+    second: Platform-Lava-Tile-Set_31
+  - first:
+      213: 5283128024543720517
+    second: Platform-Lava-Tile-Set_32
+  - first:
+      213: 5238642646340501864
+    second: Platform-Lava-Tile-Set_33
+  - first:
+      213: -1010754635272075863
+    second: Platform-Lava-Tile-Set_34
+  - first:
+      213: -8838740286346040337
+    second: Platform-Lava-Tile-Set_35
+  - first:
+      213: 6635771637493213912
+    second: Platform-Lava-Tile-Set_36
+  - first:
+      213: -2309506477689239333
+    second: Platform-Lava-Tile-Set_37
+  - first:
+      213: -9021111147782392189
+    second: Platform-Lava-Tile-Set_38
+  - first:
+      213: 379219165730770858
+    second: Platform-Lava-Tile-Set_39
+  - first:
+      213: 398427354232766272
+    second: Platform-Lava-Tile-Set_40
+  - first:
+      213: -656074334709112188
+    second: Platform-Lava-Tile-Set_41
+  - first:
+      213: 6506989358071872173
+    second: Platform-Lava-Tile-Set_42
+  - first:
+      213: 1944368348861268530
+    second: Platform-Lava-Tile-Set_39
+  - first:
+      213: -1976816235032477534
+    second: Platform-Lava-Tile-Set_40
+  - first:
+      213: 9145733346964983686
+    second: Platform-Lava-Tile-Set_41
+  - first:
+      213: -6596602363813019696
+    second: Platform-Lava-Tile-Set_42
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a43cc18eb16e3160800000000000000
+      internalID: 7007145541084394662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05116336775fd7a90800000000000000
+      internalID: -7314420326665416368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c23f99cff985ee50800000000000000
+      internalID: 6838023340924285641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca9350fea9a93460800000000000000
+      internalID: 7221990046286715587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b67f9045f9691330800000000000000
+      internalID: 3682090672424187572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a8104ec9d885240800000000000000
+      internalID: 4780726709433502224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640be2a4e4861a320800000000000000
+      internalID: 2567447948039204934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6c024128147acd0800000000000000
+      internalID: -2546995037315479846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0de160c715c20e0800000000000000
+      internalID: -2293368517117947674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c05dc9fb7c069b0800000000000000
+      internalID: -5088847953144771536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7b160b964ea6600800000000000000
+      internalID: 462433054340790241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57243524f21a19860800000000000000
+      internalID: 7534980875915838069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de85a3213d1dbd910800000000000000
+      internalID: 1863313575321950445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d657293a542c1f0800000000000000
+      internalID: -1026181196247896785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e5f88b66a2c3120800000000000000
+      internalID: 2394835722525695503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d45ea25fec7cd30800000000000000
+      internalID: 4451754309061004566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0923d2c8b88ad50800000000000000
+      internalID: 6748797475784659139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65b7f96fead03970800000000000000
+      internalID: 8732720399281272173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744e9d3a70b417a40800000000000000
+      internalID: 5364151127360791623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ccbfed7331139310800000000000000
+      internalID: 1410490021150964934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f3e7e579c48fd50800000000000000
+      internalID: 6771246252760645526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65d5b50ef632df90800000000000000
+      internalID: -6930416411924376213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43a9f49405a3bea0800000000000000
+      internalID: -5858157251181042867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975a61be89073d610800000000000000
+      internalID: 1644782091001832825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2de5bc2d609ffb70800000000000000
+      internalID: 8935018984302308650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_28
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016c9992c0ccef720800000000000000
+      internalID: 2881965164173313552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a496acc71ec920d0800000000000000
+      internalID: -3446997438162365271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293b5df2f2ddd9490800000000000000
+      internalID: -7737785390016908398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083971ad735877160800000000000000
+      internalID: 7023228618836251520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544f6d572f0715940800000000000000
+      internalID: 5283128024543720517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_33
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86186583bb563b840800000000000000
+      internalID: 5238642646340501864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a54781b30419f1f0800000000000000
+      internalID: -1010754635272075863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd88ed6481cf2ffd0800000000000000
+      internalID: -2309506477689239333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3863d1df4339ec280800000000000000
+      internalID: -9021111147782392189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a3712b2eb079600800000000000000
+      internalID: 474861353989257791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3e123751d527970800000000000000
+      internalID: 8751159372641592319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce8e449ef3840e00800000000000000
+      internalID: 1010077345870941893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb5ba694624d88d0800000000000000
+      internalID: -2842542790008939571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da845a242c3ea8330800000000000000
+      internalID: 3714031266201684141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232836a26b8cbfa10800000000000000
+      internalID: 1944368348861268530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a00aac9b10f094e0800000000000000
+      internalID: -1976816235032477534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fca4cd50c2cee70800000000000000
+      internalID: 9145733346964983686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform-Lava-Tile-Set_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df3c64b9192474a0800000000000000
+      internalID: -6596602363813019696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
