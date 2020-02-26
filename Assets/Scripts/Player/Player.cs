@@ -139,7 +139,7 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Jump") && _isGrounded && !_isJumped)
             Jump();
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && !_isDashing)
+        if (Input.GetButtonDown("Dash") && !_isDashing)
             StartCoroutine(Dash(Input.GetAxisRaw("Horizontal")));
 
         if (!Input.GetButton("Jump"))
