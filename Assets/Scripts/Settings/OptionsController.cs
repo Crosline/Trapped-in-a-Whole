@@ -16,8 +16,6 @@ public class OptionsController : MonoBehaviour {
     public Slider effects;
     [Header("AudioMixers")]
     public AudioMixer masterMixer;
-    public AudioMixer musicMixer;
-    public AudioMixer effectsMixer;
     private bool fullScreen;
 
     private float masterVolume;
@@ -36,9 +34,9 @@ public class OptionsController : MonoBehaviour {
         int qual = quality.value;
         bool full = fullScreen;
 
-        masterMixer.SetFloat("volume", masterVolume);
-        musicMixer.SetFloat("volume", musicVolume);
-        effectsMixer.SetFloat("volume", effectsVolume);
+        masterMixer.SetFloat("Master", masterVolume);
+        masterMixer.SetFloat("Music", musicVolume);
+        masterMixer.SetFloat("Effects", effectsVolume);
 
 
         GameSettings.Instance.SaveSettings(qual, res.width, res.height, full, masterVolume, musicVolume, effectsVolume);
@@ -112,9 +110,9 @@ public class OptionsController : MonoBehaviour {
         music.value = user.musicVolume;
         effects.value = user.effectsVolume;
 
-        masterMixer.SetFloat("Volume", user.masterVolume);
-        musicMixer.SetFloat("Volume", user.musicVolume);
-        effectsMixer.SetFloat("Volume", user.effectsVolume);
+        masterMixer.SetFloat("Master", user.masterVolume);
+        masterMixer.SetFloat("Music", user.musicVolume);
+        masterMixer.SetFloat("Effects", user.effectsVolume);
 
     }
 

@@ -30,7 +30,7 @@ public class PortalManager : MonoBehaviour {
         portal3 = GameObject.Find("Portal3");
         portal4 = GameObject.Find("Portal4");
 
-        if (SceneManager.GetActiveScene().buildIndex < 2 || SceneManager.GetActiveScene().buildIndex > 22) {
+        if (SceneManager.GetActiveScene().buildIndex < 2 || SceneManager.GetActiveScene().buildIndex > 21) {
             Destroy(portal1);
             Destroy(portal2);
             Destroy(portal3);
@@ -42,10 +42,10 @@ public class PortalManager : MonoBehaviour {
             portal1.transform.position = p[0].position;
             portal1.transform.rotation = p[0].rotation;
 
-            portal3.transform.position = p[1].position;
-            portal3.transform.rotation = p[1].rotation;
+            portal2.transform.position = p[1].position;
+            portal2.transform.rotation = p[1].rotation;
 
-            portal2.transform.position = new Vector2(-10000, -10000);
+            portal3.transform.position = new Vector2(-10000, -10000);
             portal4.transform.position = new Vector2(-10000, -10000);
             return;
         }
