@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a9c6204ee63a8f41b19114fdf222ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _isMovingRight: 1
+  _isMovingRight: 0
   _speed: 2
   _spottedWaitTime: 1
   _spotDistance: 3.23
@@ -169,6 +169,7 @@ MonoBehaviour:
   _moveDistance: 2
   _isWaiting: 0
   _isDashing: 0
+  isDashingAvailable: 0
   _isMoving: 0
 --- !u!1 &3478371951816001373
 GameObject:

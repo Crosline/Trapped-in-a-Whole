@@ -35,6 +35,7 @@ public class BatAI : Enemy
     private bool _isDistance;
     [SerializeField] private bool _isWaiting = false;
     [SerializeField] private bool _isDashing = false;
+    [SerializeField] private bool isDashingAvailable = false;
     [SerializeField] private bool _isMoving = true;
 
     protected override void Move()
@@ -89,7 +90,7 @@ public class BatAI : Enemy
             for (float i = 0; i<distance; i+=_speed/100)
             {
                 Debug.Log(CheckForPlayer());
-                if (CheckForPlayer() && !isDash())
+                if (CheckForPlayer() && !isDash() && isDashingAvaible)
                 {
                     StartCoroutine(BatDash());
                     distance += _speed * Time.fixedDeltaTime;
@@ -107,7 +108,7 @@ public class BatAI : Enemy
             //Back To Center 
             for (float i = 0; i < distance; i += _speed / 100)
             {
-                if (CheckForPlayer() && !isDash())
+                if (CheckForPlayer() && !isDash() && isDashingAvaible)
                 {
                     StartCoroutine(BatDash());
                     distance += _speed * Time.fixedDeltaTime;
@@ -124,7 +125,7 @@ public class BatAI : Enemy
 
             while(true)
             {
-                if (CheckForPlayer() && !isDash())
+                if (CheckForPlayer() && !isDash() && isDashingAvaible)
                 {
                     StartCoroutine(BatDash());
                     yield return new WaitWhile(isDash);
@@ -145,7 +146,7 @@ public class BatAI : Enemy
 
             for (float i = 0; i<distance; i += _speed/100)
             {
-                if (CheckForPlayer() && !isDash())
+                if (CheckForPlayer() && !isDash() && isDashingAvaible)
                 {
                     StartCoroutine(BatDash());
                     distance += _speed * Time.fixedDeltaTime;
@@ -319,7 +320,7 @@ public class BatAI : Enemy
 
             for (float i = 0; i < distance; i += _speed / 100)
             {
-                if (CheckForPlayerBat() && !isDash())
+                if (CheckForPlayerBat() && !isDash() && isDashingAvaible)
                 {
                     StartCoroutine(BatDash());
                     distance += _speed * Time.fixedDeltaTime;
@@ -372,6 +373,7 @@ public class BatAI : Enemy
     {
         _isWaiting = true;
         yield return new WaitForSecondsRealtime(_timeToWait);
+        transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
         _isWaiting = false;
     }
 
