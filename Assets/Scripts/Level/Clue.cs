@@ -17,7 +17,6 @@ public class Clue : MonoBehaviour {
     void Awake() {
 
         ClueTexts();
-        blin = portalManager.p.Length;
     }
 
     void Start() {
